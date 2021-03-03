@@ -90,10 +90,62 @@ DEFAULTS_NOT_CONFIGURED,Not Configured Default Accoutns,Not Configured Default A
 126,Tax receivables,,Asset,,,Yes,,12
 12610,Tax credit A/R,Tax to be reimbursed - before tax declaration,Asset,,Yes,,T_CREDIT_ACCT,126
 12800,Intercompany Due From,Default Receivables account for intercompany trx,Asset,,Yes,,INTERCOMPANYDUEFROM_ACCT,12
-13,Investments,,Asset,,,Yes,,1
-14,Inventory,,Asset,,,Yes,,1
-14120,Product asset,Product Inventory Account,Asset,,Yes,,P_ASSET_ACCT,14
-15,"Prepaid Expenses, Deposits & Other Current Assets",,Asset,,,Yes,,1
+13,INTANGIBLE ASSETS,,Asset,,,Yes,,1
+13100,Intangible Assets,,Asset,,,Yes,,13
+13110,Name of companies,,Asset,,,Yes,,13
+13120,Name of publications,,Asset,,,Yes,,13
+13130,Software,,Asset,,,Yes,,13
+13140,Licenses and deductibles,,Asset,,,Yes,,13
+13150,Copyrightes,,Asset,,,Yes,,13
+13160,Patents,,Asset,,,Yes,,13
+13170,Rights for delivering services and expl-n,,Asset,,,Yes,,13
+13180,"Formulations, models, projects,recipes,mock-ups",,Asset,,,Yes,,13
+13190,Other intangible assets,,Asset,,,Yes,,13
+13200,Deprecation of intangible assets,,Asset,,,Yes,,13
+13210,Deprecation of Name of companies,,Asset,,,Yes,,13
+13220,Deprecation of Name of publications,,Asset,,,Yes,,13
+13230,Deprecation of Software,,Asset,,,Yes,,13
+13240,Deprecation of Licensies and deductibles,,Asset,,,Yes,,13
+13250,Deprecation of Copyrightes,,Asset,,,Yes,,13
+13260,Deprecation of Patents,,Asset,,,Yes,,13
+13270,Depr-n of Rightes for delivering serv-s and exp-n,,Asset,,,Yes,,13
+13280,"Deprecation of formul-s, models, prjects,recipes",,Asset,,,Yes,,13
+13290,Deprecation of other intangible assets,,Asset,,,Yes,,13
+13300,Unfinished intangible assets,,Asset,,,Yes,,13
+13310,Intangible assets in processing,,Asset,,,Yes,,13
+13320,Further capitalized expenditures on Intangible ass,,Asset,,,Yes,,13
+13400,Goodwill,,Asset,,,Yes,,13
+13600,Devaluation of Intangible assets,,Asset,,,Yes,,13
+13610,Devaluation of Intangible assets,,Asset,,,Yes,,13
+13620,Devaluation of Intangible assets in processing,,Asset,,,Yes,,13
+13630,Devaluation of Goodwill,,Asset,,,Yes,,13
+14,NON-CURRENT FINANCAL ASSETS1,,Asset,,,Yes,,13
+14100,Non-cur.inv.in aut.c-l of unrel.p-s c-d in init co,,Asset,,,Yes,,13
+14110,Non-cur.inv.in aut.c-l of unrel.p-s c-d eq. Inst.,,Asset,,,Yes,,13
+14120,Non-cur.inv.in aut.c-l of unrel.p-s c-d der. Inst.,,Asset,,,Yes,,13
+14200,Non-cur.inv.in aut.c-l of rel.p-s c-d in init cost,,Asset,,,Yes,,13
+14210,N-c.inv.in dauth.est.aut.cap-l calc.in init.cost,,Asset,,,Yes,,13
+14220,N-c.inv.in ass.est.auth.cap-l calc. in init.cost,,Asset,,,Yes,,13
+14230,N-c.inv.in auth.c-l of joint.contr.un.calc.in i.c.,Product Inventory Account,Asset,,Yes,,P_ASSET_ACCT,14
+14300,Non-current financ.assets measured in real value,,Asset,,,Yes,,13
+14310,Non-current financ.assets available for sale,,Asset,,,Yes,,13
+14320,Non-current financ.assets available for sale,,Asset,,,Yes,,13
+14400,"Tot.earn.from l-term inv.,keep.untill time to run",,Asset,,,Yes,,13
+14500,Total earnings from long-term lending,,Asset,,,Yes,,13
+14510,Total earnings from long-term lending,,Asset,,,Yes,,13
+14600,Total earnings from finance lease,,Asset,,,Yes,,13
+14700,Unear.fin.inc.from l-term fin.as.calc.in dep.value,,Asset,,,Yes,,13
+14710,Unear.fin.inc.from l-t.inv.ke-d untill time to run,,Asset,,,Yes,,13
+14720,Uneraend fin.income from long-term lending,,Asset,,,Yes,,13
+14730,Unearned financial income from finance lease,,Asset,,,Yes,,13
+14800,Non-current financial assets provide for hedging,,Asset,,,Yes,,13
+14900,Devaluation of non-cur.fin.assets(non-repayabl.),,Asset,,,Yes,,13
+14910,Deval.of non-cur.inv in auth.cap.of unrelated part,,Asset,,,Yes,,13
+14920,Deval.of non-cur.inv in auth.cap.of related partie,,Asset,,,Yes,,13
+14930,Non-repay. of l-term inv.keeped untill time to run,,Asset,,,Yes,,13
+14940,Non-repayabl.of long -term lending,,Asset,,,Yes,,13
+14950,Non-repay.of total earn. from finance lease,,Asset,,,Yes,,13
+15,NON-CURRENT FINANCAL ASSETS2,,Asset,,,Yes,,1
 151,Prepaid Expenses,,Asset,,,Yes,,15
 152,Deposits,,Asset,,,Yes,,15
 153,Other Current Assets,,Asset,,,Yes,,15

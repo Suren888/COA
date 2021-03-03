@@ -119,7 +119,7 @@ DEFAULTS_NOT_CONFIGURED,Not Configured Default Accoutns,Not Configured Default A
 13610,Devaluation of Intangible assets,,Asset,,,Yes,,13
 13620,Devaluation of Intangible assets in processing,,Asset,,,Yes,,13
 13630,Devaluation of Goodwill,,Asset,,,Yes,,13
-14,NON-CURRENT FINANCAL ASSETS1,,Asset,,,Yes,,13
+14,NON-CURRENT FINANCAL ASSETS,,Asset,,,Yes,,13
 14100,Non-cur.inv.in aut.c-l of unrel.p-s c-d in init co,,Asset,,,Yes,,13
 14110,Non-cur.inv.in aut.c-l of unrel.p-s c-d eq. Inst.,,Asset,,,Yes,,13
 14120,Non-cur.inv.in aut.c-l of unrel.p-s c-d der. Inst.,,Asset,,,Yes,,13
@@ -145,10 +145,14 @@ DEFAULTS_NOT_CONFIGURED,Not Configured Default Accoutns,Not Configured Default A
 14930,Non-repay. of l-term inv.keeped untill time to run,,Asset,,,Yes,,13
 14940,Non-repayabl.of long -term lending,,Asset,,,Yes,,13
 14950,Non-repay.of total earn. from finance lease,,Asset,,,Yes,,13
-15,NON-CURRENT FINANCAL ASSETS2,,Asset,,,Yes,,1
-151,Prepaid Expenses,,Asset,,,Yes,,15
-152,Deposits,,Asset,,,Yes,,15
-153,Other Current Assets,,Asset,,,Yes,,15
+15,OTHER NON-CURRENT ASSETS,,Asset,,,Yes,,1
+151,Defered tax assets,,Asset,,,Yes,,15
+152,DepositsPrepayments for acquisition of non-current assets,,Asset,,,Yes,,15
+153,Assets of fixed payments proposals,,Asset,,,Yes,,15
+154,Non-cur.assets from defered expenditures,,Asset,,,Yes,,15
+155,Deprecation of non-cur.assets from defered expend,,Asset,,,Yes,,15
+156,Acquisition of entrepreneurial activity,,Asset,,,Yes,,15
+157,Defered profit tax assets (fin),,Asset,,,Yes,,15
 16,Land and Building,,Asset,,,Yes,,1
 17,"Furniture, Fixtures & Equipment",,Asset,,,Yes,,1
 177,Project Assets,,Asset,,,Yes,,17

@@ -1,18 +1,78 @@
 [Account_Value],[Account_Name],[Account_Description],[Account_Type],[Account_Sign],[Account_Document],[Account_Summary],[Default_Account],[Account_Parent]
 DEFAULTS_NOT_CONFIGURED,Not Configured Default Accoutns,Not Configured Default Accoutns,Asset,,,Yes,SUMMARY,
 1,Assets,,Asset,,,Yes,,
-11,Cash,,Asset,,,Yes,,1
-11100,Checking Account,Bank Asset,Asset,,Yes,,B_ASSET_ACCT,11
-11110,Checking In-Transfer,Bank transactions in transit,Asset,,Yes,,B_INTRANSIT_ACCT,11
-11130,Checking Unallocated Receipts,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
-11900,Petty Cash,Cash Book Asset,Asset,,Yes,,CB_ASSET_ACCT,11
+11,NON-CURRENT ASSETS1,,Asset,,,Yes,,1
+11100,Depreciated Fixed Assets,Bank Asset,Asset,,Yes,,B_ASSET_ACCT,11
+11110,Buildings,Bank transactions in transit,Asset,,Yes,,B_INTRANSIT_ACCT,11
+11120,Structures,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11130,Transmissive device,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11140,Machinery and equipment,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11150,Transportation means,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11160,Production and Operation Fixtures and tools,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11190,Other Fixed Assets,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11200,Depreciation of Fixed Assets,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11210,Depreciation of Buildings,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11220,Depreciation of Structures,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11230,Depreciation of Transmissive devices,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11240,Depreciation of Machinery and equipment,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11250,Depreciation of Transportation means,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11260,"Depreciation of Product., Oper. Fixtures and tools","Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11290,Deprecation of other Fixed Assets,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11500,Land,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11600,Biological assets,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11610,Orchards,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11620,Plantation Trees,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11630,Shrubbery,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11640,Grapevine,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11650,Milch herd,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11660,Milch herd,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11650,Milch herd,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11660,Meat giving animals,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11700,Depreciation of Biological Assets,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11710,Depreciation of Orchards,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11720,Depreciation of Plantation Trees,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11730,Depreciation of Shrubbery,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11740,Depreciation of Grapevine,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11750,Depreciation of Milch herd,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11760,Depreciation of Meat Giving Animals,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11800,Not available Fixed Assets for the use,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11810,Not available Buildings for the use,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11820,Not available Structures for the use,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11830,Not available Transmissive device for the use,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11850,Not available Transportation means for the use,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11860,Not available Production and Operation Fixtures an,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11870,Not available Other Fixed Assets for the use,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11900,Finance leased Fixed Assets,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11910,Finance leased Buildings,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11920,Finance leased Machinery and Equipment,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11930,Finance leased Transportation means,"Received, unallocated payments",Asset,,Yes,,B_UNALLOCATEDCASH_ACCT,11
+11940,Finance leased other Fixed Assets,Cash Book Asset,Asset,,Yes,,CB_ASSET_ACCT,11
 11910,Petty Cash In-Transfer,Cash Book Transfer,Asset,,Yes,,CB_CASHTRANSFER_ACCT,11
-12,Accounts Receivable,,Asset,,,Yes,,1
-121,Accounts Receivable - Trade,,Asset,,,Yes,,12
-12110,Accounts Receivable - Trade,Accounts Receivables,Asset,,Yes,,C_RECEIVABLE_ACCT,121
+12,NON-CURRENT ASSETS2,,Asset,,,Yes,,1
+12100,Depreciation of finance leased Fixed Assets,,Asset,,,Yes,,12
+12110,Depreciation of finance leased Buildings,Accounts Receivables,Asset,,Yes,,C_RECEIVABLE_ACCT,121
 12115,Accounts Receivable Services - Trade,Accounts Receivables for Services,Asset,,Yes,,C_RECEIVABLE_SERVICES_ACCT,121
-122,Credit Card in Transit,,Asset,,,Yes,,12
-124,Loans Receivable,,Asset,,,Yes,,12
+12120,Depreciation of finance leased Machinery and equip,Accounts Receivables,Asset,,Yes,,C_RECEIVABLE_ACCT,121
+12130,Deprecation of finance leased Transportation means,Accounts Receivables,Asset,,Yes,,C_RECEIVABLE_ACCT,121
+12140,Deprecation of finance leased other Fixed Assets,Accounts Receivables,Asset,,Yes,,C_RECEIVABLE_ACCT,121
+12200,Investment property,,Asset,,,Yes,,12
+12210,Investment property calculated in actual price,,Asset,,,Yes,,12
+12211,Investment property calculat. in actual price Land,,Asset,,,Yes,,12
+12212,Inves. property calculat. in actual price Building,,Asset,,,Yes,,12
+12220,Investment property calculated in initial cost,,Asset,,,Yes,,12
+12221,Inves.property calculated in initial cost Land,,Asset,,,Yes,,12
+12222,Inves. property calculat. in initial cost Building,,Asset,,,Yes,,12
+12300,Deprecation of Inv.property calc-d in initial cost,,Asset,,,Yes,,12
+12400,Devaluation of Non-curent tangible assets,,Asset,,,Yes,,12
+12410,Devaluation of deprecated Fixed Assets,,Asset,,,Yes,,12
+12411,Devaluation of deprecated buildings,,Asset,,,Yes,,12
+12412,Devaluation of deprecated structures,,Asset,,,Yes,,12
+12413,Devaluation of deprecated transmissive device,,Asset,,,Yes,,12
+12414,Devaluation of deprecated machinery and equipment,,Asset,,,Yes,,12
+12415,Devaluation of deprecated transportation means,,Asset,,,Yes,,12
+12416,Devaluation of Production and Operation Fixtures,,Asset,,,Yes,,12
+12419,Devaluation of deprecated Other Fixed Assets,,Asset,,,Yes,,12
+12420,Devaluation of Land,,Asset,,,Yes,,12
 125,Prepayments,,Asset,,,Yes,,12
 12510,Vendor prepayment,Prepayments for future expense,Asset,,Yes,,V_PREPAYMENT_ACCT,125
 126,Tax receivables,,Asset,,,Yes,,12

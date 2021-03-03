@@ -73,6 +73,18 @@ DEFAULTS_NOT_CONFIGURED,Not Configured Default Accoutns,Not Configured Default A
 12416,Devaluation of Production and Operation Fixtures,,Asset,,,Yes,,12
 12419,Devaluation of deprecated Other Fixed Assets,,Asset,,,Yes,,12
 12420,Devaluation of Land,,Asset,,,Yes,,12
+12430,Devaluation of Biological Assets,,Asset,,,Yes,,12
+12440,Devaluation of Unfinished Non-current Tangible Ass,,Asset,,,Yes,,12
+12450,Devaluation of finance leased Fixed Assets,,Asset,,,Yes,,12
+12451,Devaluation of finance leased Buildings,,Asset,,,Yes,,12
+12452,Devaluation of fin. leased Machinery and equipment,,Asset,,,Yes,,12
+12453,Devaluation of finance leased Transportation means,,Asset,,,Yes,,12
+12454,Devaluation of finance leased Other Fixed Assets,,Asset,,,Yes,,12
+12460,Devaluation of Investment property,,Asset,,,Yes,,12
+12461,Devaluation of Investment property calc.in act.pr.,,Asset,,,Yes,,12
+12462,Devaluation of Invest.property calc.in act.pr.Land,,Asset,,,Yes,,12
+12463,Devaluation of Investment property,,Asset,,,Yes,,12
+12464,Devaluation of Investment property,,Asset,,,Yes,,12
 125,Prepayments,,Asset,,,Yes,,12
 12510,Vendor prepayment,Prepayments for future expense,Asset,,Yes,,V_PREPAYMENT_ACCT,125
 126,Tax receivables,,Asset,,,Yes,,12

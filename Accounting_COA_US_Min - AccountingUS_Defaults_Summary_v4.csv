@@ -600,3 +600,178 @@
 5434, Current part of non-current reserves              ,,Expense,,,Yes,,543
 5435, Current reserves                                  ,,Expense,,,Yes,,543
 544, Payments on ecotaxes                              ,,Expense,,,Yes,,54
+6,Expenses,,Expense,,,Yes,,
+61,INCOME FROM OPERATING ACTIVITIES               ,,Expense,,,Yes,,6
+611," Revenue from sales of prod.,goods,works and servic",,Expense,,,Yes,,61
+6111, Revenue from sales of products                    ,,Expense,,,Yes,,611
+61111,  Revenue from sales of products 20% VAT            ,,Expense,,,Yes,,611
+61112,  Revenue from sales of products 16.67% VAT         ,,Expense,,,Yes,,611
+6111204,    Revenue from sales of products 16.67% VAT        ,,Expense,,,Yes,,611
+61113,  Revenue from sales of products 0% VAT             ,,Expense,,,Yes,,611
+61114,  Revenue from sales of products without VAT        ,,Expense,,,Yes,,611
+6112, Revenue from sales of goods                       ,,Expense,,,Yes,,611
+61120,  Revenue from sales of goods 20% VAT               ,,Expense,,,Yes,,611
+61121,  Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112101,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112102,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112103,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112104,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112105,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112106,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112107,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112108,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112109,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112110,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112111,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112114,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112115,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112116,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112117,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112118,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112119,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112120,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112121,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+61122,  Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112201,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112202,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112203,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112204,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112205,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112206,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112207,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112208,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112209,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112210,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112211,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112214,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112215,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112216,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112217,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112218,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112219,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112220,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+6112221,    Revenue from sales of goods 16.67% VAT            ,,Expense,,,Yes,,611
+61123,  Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112301,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112302,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112303,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112304,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112305,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112306,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112307,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112308,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112309,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112310,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112311,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112314,    Revenue from sales of goods                       ,,Expense,,,Yes,,611
+6112315,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112316,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112317,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112318,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112319,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112320,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112321,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+61124,  Revenue from sales of goods without VAT           ,,Expense,,,Yes,,611
+6112401,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112402,    Revenue from sales of goods VAT                   ,,Expense,,,Yes,,611
+6112403,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112404,    Revenue from sales of goods VAT                   ,,Expense,,,Yes,,611
+6112405,    Revenue from sales of goods VAT                   ,,Expense,,,Yes,,611
+6112406,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112407,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112408,    Revenue from sales of goods VAT                   ,,Expense,,,Yes,,611
+6112409,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112410,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112411,    Revenue from sales of goods without VAT           ,,Expense,,,Yes,,611
+6112414,    Revenue from sales of goods without VAT           ,,Expense,,,Yes,,611
+6112415,    Revenue from sales of goods 0% VAT                ,,Expense,,,Yes,,611
+6112416,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112417,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112418,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112419,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112420,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6112421,    Revenue from sales of goods  VAT                  ,,Expense,,,Yes,,611
+6113, Revenue from completed works                      ,,Expense,,,Yes,,611
+61131,  Revenue from completed works 20% VAT              ,,Expense,,,Yes,,611
+61132,  Revenue from completed works 16.67% VAT          ,,Expense,,,Yes,,611
+61133,  Revenue from completed works 0% VAT               ,,Expense,,,Yes,,611
+61134,  Revenue from completed works without VAT          ,,Expense,,,Yes,,611
+6114, Revenue from rendered services                    ,,Expense,,,Yes,,611
+61141,  Revenue from rendered services 20% VAT            ,,Expense,,,Yes,,611
+61142,  Revenue from rendered services 16.67% VAT         ,,Expense,,,Yes,,611
+61143,  Revenue from rendered services 0% VAT             ,,Expense,,,Yes,,611
+61144,  Revenue from rendered services without VAT        ,,Expense,,,Yes,,611
+612," Cor.of rev.from ret.and price-cutting of sel.pr.,g",,Expense,,,Yes,,61
+6121," Cor.of revenue from return of selling prod., goods",,Expense,,,Yes,,612
+6122," Cor.of rev.from price cut.of sel.pr.,g-ds,ser.,w-s",,Expense,,,Yes,,612
+614, Income from other operating activities            ,,Expense,,,Yes,,61
+6141, Income from sale(disposal)of other inventory      ,,Expense,,,Yes,,614
+61411,                                                    ,,Expense,,,Yes,,614
+61412,  Income from sale(disposal)of other inventory      ,,Expense,,,Yes,,614
+6142," I.from the ch.in the val.of inv.,rec.of ev.los.re ",,Expense,,,Yes,,614
+61421,  Income from other operating activities            ,,Expense,,,Yes,,614
+61422,  Income from other operating activities            ,,Expense,,,Yes,,614
+6143, Incom from operating lease                        ,,Expense,,,Yes,,614
+6144, Income from fines and penalties                   ,,Expense,,,Yes,,614
+6145, Income from the reimbursement of material damages,,Expense,,,Yes,,614
+6146, Other operating income                            ,,Expense,,,Yes,,614
+615,                                                   ,,Expense,,,Yes,,61
+6151,                                                   ,,Expense,,,Yes,,615
+6152,                                                   ,,Expense,,,Yes,,615
+6153,                                                   ,,Expense,,,Yes,,615
+6154,                                                   ,,Expense,,,Yes,,615
+62,INCOME FROM NON-OPERATING ACTIVITIES       ,,Expense,,,Yes,,6
+621, Income from disposal of non-current assets        ,,Expense,,,Yes,,62
+6211, Income from disposal of fixed assets              ,,Expense,,,Yes,,621
+62111,  Income from disposal of non-current assets        ,,Expense,,,Yes,,621
+6212, Income from disposal of intangible assets         ,,Expense,,,Yes,,621
+6213, Income from disposal of non-cur.fin.assets        ,,Expense,,,Yes,,621
+6214, Income from disposal of other non-cur.assets      ,,Expense,,,Yes,,621
+622, Income from disposal of current fin. assets       ,,Expense,,,Yes,,62
+623," Inc.from disposal of as.asc.to dis.act.,rep.of l  ",,Expense,,,Yes,,62
+624, Inc.from remeasur.of non-cur.tang.and intang.asset,,Expense,,,Yes,,62
+6241, Income from revaluation of fixed assets           ,,Expense,,,Yes,,624
+6242, Income from revaluation of intangible assets      ,,Expense,,,Yes,,624
+6243, Inc.from recovery of formerly impaired fixed asse ,,Expense,,,Yes,,624
+6244, Inc.from recovery of formarly impaired intan.asset,,Expense,,,Yes,,624
+6245, Income from return of investment properties       ,,Expense,,,Yes,,624
+6246,                                                   ,,Expense,,,Yes,,62
+625, Income from the foreign exchange rate differances ,,Expense,,,Yes,,62
+626," Inc.from recov.dev(non-rep),rem.of non-oper.fin.t ",,Expense,,,Yes,,626
+6261,                                                   ,,Expense,,,Yes,,626
+6263, Inc.from rem.of non-oper.fin.as.available for sale,,Expense,,,Yes,,626
+6264, Income from remeas.of non-oper.hedging tools      ,,Expense,,,Yes,,626
+6265, Inc.from rec.of dev.(non-rep.)of non-op.fin.assets,,Expense,,,Yes,,626
+627, Income from financial investments                 ,,Expense,,,Yes,,62
+6271, Dividends                                         ,,Expense,,,Yes,,627
+6272, Interest income considered transactions expend.   ,,Expense,,,Yes,,627
+6273, Inc.from fin.lease coonsidered transactions expend,,Expense,,,Yes,,627
+628, Income from grant refered to assets               ,,Expense,,,Yes,,62
+629, Other incomes                                     ,,Expense,,,Yes,,62
+6291, Share of prof.of rel.org.calc.by the meth.of sh/h.,,Expense,,,Yes,,629
+6292, Inc.from dec.of oder.tools clas.as owned cap.tools,,Expense,,,Yes,,629
+63,                                                  ,,Expense,,,Yes,,6
+631,                                                   ,,Expense,,,Yes,,63
+632,                                                   ,,Expense,,,Yes,,63
+6321,                                                   ,,Expense,,,Yes,,632
+6322,                                                   ,,Expense,,,Yes,,632
+64,                                                  ,,Expense,,,Yes,,6
+642,                                                   ,,Expense,,,Yes,,64
+643,                                                   ,,Expense,,,Yes,,64
+644,                                                   ,,Expense,,,Yes,,64
+6441,                                                   ,,Expense,,,Yes,,644
+6442,                                                   ,,Expense,,,Yes,,644
+6443,                                                   ,,Expense,,,Yes,,644
+67,                                                  ,,Expense,,,Yes,,6
+671,                                                   ,,Expense,,,Yes,,67
+6711,                                                   ,,Expense,,,Yes,,671
+6712,                                                   ,,Expense,,,Yes,,671
+6713,                                                   ,,Expense,,,Yes,,671
+6714,                                                   ,,Expense,,,Yes,,671
+672,                                                   ,,Expense,,,Yes,,67
+673,                                                   ,,Expense,,,Yes,,67
+674,                                                   ,,Expense,,,Yes,,67
+6741,                                                   ,,Expense,,,Yes,,674
+6742,                                                   ,,Expense,,,Yes,,674
+6743,                                                   ,,Expense,,,Yes,,674
+675,                                                   ,,Expense,,,Yes,,67

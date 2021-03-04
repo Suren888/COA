@@ -315,13 +315,10 @@
 251320,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
 251322,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
 252, Settlement Account                                ,,Asset,,,Yes,,25
-25201,                                                 ,,Asset,,,Yes,,252
 2521, Settlement Account                  ,,Asset,,Yes,,T_DUE_ACCT,252
 25211,   Settlement Account                 ,,Asset,,Yes,,T_DUE_ACCT,252
 25212,   Settlement Account                 ,,Asset,,Yes,,T_DUE_ACCT,252
 25213,   Settlement Account                 ,,Asset,,Yes,,T_DUE_ACCT,252
-25214,                                                 ,,Asset,,Yes,,T_DUE_ACCT,252
-25215,                                                 ,,Asset,,Yes,,T_DUE_ACCT,252
 25216,   Settlement Account                 ,,Asset,,Yes,,T_DUE_ACCT,252
 2522, Frozen settlment account          ,,Asset,,Yes,,T_DUE_ACCT,252
 25221,   Frozen settlment account         ,,Asset,,Yes,,T_DUE_ACCT,252
@@ -346,7 +343,7 @@
 2545, Other bank accounts                 ,,Asset,,Yes,,T_DUE_ACCT,254
 255,CASH                                        ,,Asset,,Yes,,T_DUE_ACCT,25
 2550, CASH                                      ,,Asset,,Yes,,T_DUE_ACCT,25
-255001,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
+255001,CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
 255002,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
 255003,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
 255004,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
@@ -358,21 +355,13 @@
 2550073,   CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
 255008, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
 255009, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
-255010,                   ,,Asset,,Yes,,T_DUE_ACCT,255
 255011, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
 255012, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
-255013,                   ,,Asset,,Yes,,T_DUE_ACCT,255
-2550131,                    ,,Asset,,Yes,,T_DUE_ACCT,255
-2550132,                    ,,Asset,,Yes,,T_DUE_ACCT,255
 255014, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
 2550181,   CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
 255019, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
 255020, CASH         ,,Asset,,,Yes,,255
 255021, CASH         ,,Asset,,,Yes,,255
-2551,                  ,,Asset,,Yes,,T_DUE_ACCT,255
-255101,                  ,,Asset,,Yes,,T_DUE_ACCT,255
-2552,                  ,,Asset,,Yes,,T_DUE_ACCT,255
-25520,                  ,,Asset,,Yes,,T_DUE_ACCT,255
 255200, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
 2552001,  CASH       ,,Asset,,Yes,,T_DUE_ACCT,255
 2552002,  CASH       ,,Asset,,Yes,,T_DUE_ACCT,255
@@ -385,24 +374,11 @@
 255204, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
 255205, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
 255206,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
-255207,             ,,Asset,,Yes,,T_DUE_ACCT,255
-2552071,             ,,Asset,,Yes,,T_DUE_ACCT,255
-2552072,             ,,Asset,,Yes,,T_DUE_ACCT,255
-2552073,             ,,Asset,,Yes,,T_DUE_ACCT,255
 255208,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
 255209,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
 255210,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
 255211,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
 255212,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
-255213,             ,,Asset,,Yes,,T_DUE_ACCT,255
-2552131,             ,,Asset,,Yes,,T_DUE_ACCT,255
-2552132,             ,,Asset,,Yes,,T_DUE_ACCT,255
-255214,             ,,Asset,,Yes,,T_DUE_ACCT,255
-2552181,             ,,Asset,,Yes,,T_DUE_ACCT,255
-255219,             ,,Asset,,Yes,,T_DUE_ACCT,255
-255220,             ,,Asset,,Yes,,T_DUE_ACCT,255
-255221,             ,,Asset,,Yes,,T_DUE_ACCT,255
-2553,                                                     ,,Asset,,Yes,,T_DUE_ACCT,255
 256, Cash documents                                    ,,Asset,,Yes,,T_DUE_ACCT,25
 258, Currency conversion                               ,,Asset,,Yes,,T_DUE_ACCT,25
 2581,   Currency conversion for bank accounts             ,,Asset,,Yes,,T_DUE_ACCT,258
@@ -410,8 +386,6 @@
 26,OTHER CURRENT ASSETS                              ,,Asset,,Yes,,T_DUE_ACCT,2
 261, Current assets' offset on deferred indirect taxes ,,Asset,,Yes,,T_DUE_ACCT,26
 2611,   Current assets on deferred taxes (VAT)            ,,Asset,,Yes,,T_DUE_ACCT,261
-262,                                                   ,,Asset,,Yes,,T_DUE_ACCT,26
-2621,                                                     ,,Asset,,Yes,,T_DUE_ACCT,262
 262.1,   DEFERRED EXPENSES                                 ,,Asset,,Yes,,T_DUE_ACCT,262
 263, Assets classified as keeped for purposes of sale  ,,Asset,,Yes,,T_DUE_ACCT,26
 2631,   Fixed assets classified as keeped for purposes of,,Asset,,Yes,,T_DUE_ACCT,263
@@ -482,7 +456,6 @@
 4142,   Not car.out int. expenses on long-term loans      ,,Revenue,,,Yes,,414
 4143,   Not car.out int.expenses on finance lease         ,,Revenue,,,Yes,,414
 415, Non-current fin.liabilities provided for hedging  ,,Revenue,,,Yes,,41
-416,                                                   ,,Revenue,,,Yes,,41
 42,OTHER NON-CURRENT LIBILITIES                      ,,Revenue,,,Yes,,4
 421,Grants refered to assets                          ,,Revenue,,,Yes,,42
 422,Deffered tax libilities                           ,,Revenue,,,Yes,,42
@@ -514,9 +487,7 @@
 5165, Not car.out int.exp.on short-term part of fin.leas,,Expense,,,Yes,,516
 517, Fin.liabilities keeped for purposes of sale       ,,Expense,,,Yes,,51
 5171, Fin.liabilities keeped for purposes of sale       ,,Expense,,,Yes,,517
-5172,                                                   ,,Expense,,,Yes,,517
 518, Cur.fin. liabilities provided for hedging         ,,Expense,,,Yes,,51
-519,                                                   ,,Expense,,,Yes,,51
 52, OPERATION AND OTHER CURRENT PAYABLES          ,,Expense,,,Yes,,5
 521, Payables on purchaising                           ,,Expense,,,Yes,,52
 5211, Payables on received raw materials and materials  ,,Expense,,,Yes,,521
@@ -539,7 +510,7 @@
 5233, Received prepayments on operating lease           ,,Expense,,,Yes,,523
 5235, Prepayments received for other proposes           ,,Expense,,,Yes,,523
 5236, Received prepayments                              ,,Expense,,,Yes,,523
-524,                                                   ,,Expense,,,Yes,,523
+524,Absent                                   ,,Expense,,,Yes,,523
 5241, Payables on Profit tax                            ,,Expense,,,Yes,,524
 52411,  Payables on Profit tax                            ,,Expense,,,Yes,,524
 52412,  Payables on Profit tax                            ,,Expense,,,Yes,,524
@@ -706,7 +677,6 @@
 6122," Cor.of rev.from price cut.of sel.pr.,g-ds,ser.,w-s",,Expense,,,Yes,,612
 614, Income from other operating activities            ,,Expense,,,Yes,,61
 6141, Income from sale(disposal)of other inventory      ,,Expense,,,Yes,,614
-61411,                                                    ,,Expense,,,Yes,,614
 61412,  Income from sale(disposal)of other inventory      ,,Expense,,,Yes,,614
 6142," I.from the ch.in the val.of inv.,rec.of ev.los.re ",,Expense,,,Yes,,614
 61421,  Income from other operating activities            ,,Expense,,,Yes,,614
@@ -715,11 +685,6 @@
 6144, Income from fines and penalties                   ,,Expense,,,Yes,,614
 6145, Income from the reimbursement of material damages,,Expense,,,Yes,,614
 6146, Other operating income                            ,,Expense,,,Yes,,614
-615,                                                   ,,Expense,,,Yes,,61
-6151,                                                   ,,Expense,,,Yes,,615
-6152,                                                   ,,Expense,,,Yes,,615
-6153,                                                   ,,Expense,,,Yes,,615
-6154,                                                   ,,Expense,,,Yes,,615
 62,INCOME FROM NON-OPERATING ACTIVITIES       ,,Expense,,,Yes,,6
 621, Income from disposal of non-current assets        ,,Expense,,,Yes,,62
 6211, Income from disposal of fixed assets              ,,Expense,,,Yes,,621
@@ -735,10 +700,8 @@
 6243, Inc.from recovery of formerly impaired fixed asse ,,Expense,,,Yes,,624
 6244, Inc.from recovery of formarly impaired intan.asset,,Expense,,,Yes,,624
 6245, Income from return of investment properties       ,,Expense,,,Yes,,624
-6246,                                                   ,,Expense,,,Yes,,62
 625, Income from the foreign exchange rate differances ,,Expense,,,Yes,,62
 626," Inc.from recov.dev(non-rep),rem.of non-oper.fin.t ",,Expense,,,Yes,,626
-6261,                                                   ,,Expense,,,Yes,,626
 6263, Inc.from rem.of non-oper.fin.as.available for sale,,Expense,,,Yes,,626
 6264, Income from remeas.of non-oper.hedging tools      ,,Expense,,,Yes,,626
 6265, Inc.from rec.of dev.(non-rep.)of non-op.fin.assets,,Expense,,,Yes,,626
@@ -750,31 +713,6 @@
 629, Other incomes                                     ,,Expense,,,Yes,,62
 6291, Share of prof.of rel.org.calc.by the meth.of sh/h.,,Expense,,,Yes,,629
 6292, Inc.from dec.of oder.tools clas.as owned cap.tools,,Expense,,,Yes,,629
-63,                                                  ,,Expense,,,Yes,,6
-631,                                                   ,,Expense,,,Yes,,63
-632,                                                   ,,Expense,,,Yes,,63
-6321,                                                   ,,Expense,,,Yes,,632
-6322,                                                   ,,Expense,,,Yes,,632
-64,                                                  ,,Expense,,,Yes,,6
-642,                                                   ,,Expense,,,Yes,,64
-643,                                                   ,,Expense,,,Yes,,64
-644,                                                   ,,Expense,,,Yes,,64
-6441,                                                   ,,Expense,,,Yes,,644
-6442,                                                   ,,Expense,,,Yes,,644
-6443,                                                   ,,Expense,,,Yes,,644
-67,                                                  ,,Expense,,,Yes,,6
-671,                                                   ,,Expense,,,Yes,,67
-6711,                                                   ,,Expense,,,Yes,,671
-6712,                                                   ,,Expense,,,Yes,,671
-6713,                                                   ,,Expense,,,Yes,,671
-6714,                                                   ,,Expense,,,Yes,,671
-672,                                                   ,,Expense,,,Yes,,67
-673,                                                   ,,Expense,,,Yes,,67
-674,                                                   ,,Expense,,,Yes,,67
-6741,                                                   ,,Expense,,,Yes,,674
-6742,                                                   ,,Expense,,,Yes,,674
-6743,                                                   ,,Expense,,,Yes,,674
-675,                                                   ,,Expense,,,Yes,,67
 71, EXPENSES ON OPERATING ACTIVITY                    ,,Expense,,,Yes,,7
 711,"  Cost of prod.,goods sold,works,services provided  ",,Expense,,,Yes,,71
 7111,  Cost of product sold                              ,,Expense,,,Yes,,711
@@ -798,12 +736,7 @@
 7136,  Audit and consulting services expenses            ,,Expense,,,Yes,,713
 7137,  Administrative expenses                           ,,Expense,,,Yes,,713
 71371,   Bank services and insurance expenses              ,,Expense,,,Yes,,713
-71372,                                                     ,,Expense,,,Yes,,713
-71373,                                                     ,,Expense,,,Yes,,713
-71374,                                                     ,,Expense,,,Yes,,713
-71375,                                                     ,,Expense,,,Yes,,713
 71376,   Administrative expenses                           ,,Expense,,,Yes,,713
-71379,                                                     ,,Expense,,,Yes,,713
 7138,  Expenses on non-compensated taxes                 ,,Expense,,,Yes,,713
 7139,  Other administrative expenses                     ,,Expense,,,Yes,,713
 714,  Other operational expenses                        ,,Expense,,,Yes,,71
@@ -825,12 +758,7 @@
 71471,"   Ex.on stor.of F/A,tem.not used in op.,disp.of F/A ",,Expense,,,Yes,,714
 71472,"   Ex.on stor.of F/A,tem.not used in op.,disp.of F/A ",,Expense,,,Yes,,714
 7148,  Other operational expenses                        ,,Expense,,,Yes,,714
-715,                                                    ,,Expense,,,Yes,,71
-7151,                                                    ,,Expense,,,Yes,,715
-7152,                                                    ,,Expense,,,Yes,,715
-7153,                                                    ,,Expense,,,Yes,,715
-7154,                                                    ,,Expense,,,Yes,,715
-72,                                                   ,,Expense,,,Yes,,7
+72,Absent                                           ,,Expense,,,Yes,,7
 721,  Expenses on sale(disposal)of non-current assets   ,,Expense,,,Yes,,72
 7211,  Expenses from sale(disposal)of fixed assets       ,,Expense,,,Yes,,721
 7212,  Expenses from sale(disposal)of intangible assets  ,,Expense,,,Yes,,721
@@ -843,52 +771,20 @@
 7243,  Losses from devaluation of fixed assets           ,,Expense,,,Yes,,724
 7244,  Expenses from devaluation of intangible assets    ,,Expense,,,Yes,,724
 7245,  Expenses from remeasuring of inv.property         ,,Expense,,,Yes,,724
-7246,                                                    ,,Expense,,,Yes,,724
 725,  Expenses on differance in foreign exchange rate   ,,Expense,,,Yes,,72
 726,  Ex.on remeas.and dev.(non-rep.) of non-op.fin.tool,,Expense,,,Yes,,72
-7261,                                                    ,,Expense,,,Yes,,72
 7263,"  Ex.on remeas.of non-oper.fin.assets,avail.for sale",,Expense,,,Yes,,726
 7264,  Expenses on remeas.of non-oper.hedging tools      ,,Expense,,,Yes,,726
 7265,  Losses on deval.(non-rep.) of non-oper fin.assets ,,Expense,,,Yes,,726
 727,  Financial Expenses                                ,,Expense,,,Yes,,72
 7271,"  Ex.on interest on cr.and loans,consid.transact.ex.",,Expense,,,Yes,,727
 7272,  Expenses on interest on finance lease             ,,Expense,,,Yes,,727
-7274,                                                    ,,Expense,,,Yes,,727
-7275,                                                    ,,Expense,,,Yes,,727
 728,  Expenses on gratis disposed assets                ,,Expense,,,Yes,,72
 729,  Other expenses                                    ,,Expense,,,Yes,,72
-73,                                                   ,,Expense,,,Yes,,7
-731,                                                    ,,Expense,,,Yes,,73
-732,                                                    ,,Expense,,,Yes,,73
-7321,                                                    ,,Expense,,,Yes,,732
-7322,                                                    ,,Expense,,,Yes,,732
-733,                                                    ,,Expense,,,Yes,,73
-7331,                                                    ,,Expense,,,Yes,,733
-7332,                                                    ,,Expense,,,Yes,,733
-74,                                                   ,,Expense,,,Yes,,7
-742,                                                    ,,Expense,,,Yes,,74
-743,                                                    ,,Expense,,,Yes,,74
-744,                                                    ,,Expense,,,Yes,,74
-7441,                                                    ,,Expense,,,Yes,,744
-7442,                                                    ,,Expense,,,Yes,,744
-7443,                                                    ,,Expense,,,Yes,,744
 75, PROFIT TAX EXPENSES(INCOMES)                      ,,Expense,,,Yes,,7
 751,  Profit tax expenses(incomes)                      ,,Expense,,,Yes,,75
 7511,  Expenses on profit cuurent tax(incomes)           ,,Expense,,,Yes,,751
 7512,  Expenses on deferred profit tax(incomes)          ,,Expense,,,Yes,,751
-77,                                                   ,,Expense,,,Yes,,7
-771,                                                    ,,Expense,,,Yes,,77
-7711,                                                    ,,Expense,,,Yes,,771
-7712,                                                    ,,Expense,,,Yes,,771
-7713,                                                    ,,Expense,,,Yes,,771
-7714,                                                    ,,Expense,,,Yes,,771
-772,                                                    ,,Expense,,,Yes,,77
-773,                                                    ,,Expense,,,Yes,,77
-774,                                                    ,,Expense,,,Yes,,77
-7741,                                                    ,,Expense,,,Yes,,774
-7742,                                                    ,,Expense,,,Yes,,774
-7743,                                                    ,,Expense,,,Yes,,774
-775,                                                    ,,Expense,,,Yes,,77
 81, PRODUCTION EXPENDITURES                           ,,Expense,,,Yes,,8
 811,  Main production                                   ,,Expense,,,Yes,,81
 8111,  Direct material costs                             ,,Expense,,,Yes,,811
@@ -994,21 +890,3 @@
 945,  Blanks of strict accounting                       ,,Memo,,,Yes,,94
 946,  Periodic and professional literature              ,,Memo,,,Yes,,94
 947,  Fix.ass.of little value & short-life items in use ,,Memo,,,Yes,,94
-95,                                                   ,,Memo,,,Yes,,9
-951,                                                    ,,Memo,,,Yes,,95
-952,                                                    ,,Memo,,,Yes,,95
-953,                                                    ,,Memo,,,Yes,,95
-954,                                                    ,,Memo,,,Yes,,95
-955,                                                    ,,Memo,,,Yes,,95
-956,                                                    ,,Memo,,,Yes,,95
-9571,                                                    ,,Memo,,,Yes,,957
-9572,                                                    ,,Memo,,,Yes,,957
-9573,                                                    ,,Memo,,,Yes,,957
-958,                                                    ,,Memo,,,Yes,,95
-959,                                                    ,,Memo,,,Yes,,95
-96,                                                   ,,Memo,,,Yes,,9
-961,                                                    ,,Memo,,,Yes,,96
-97,                                                   ,,Memo,,,Yes,,9
-971,                                                    ,,Memo,,,Yes,,97
-972,                                                    ,,Memo,,,Yes,,97
-999,                                                    ,,Memo,,,Yes,,9

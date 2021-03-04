@@ -263,79 +263,158 @@
 2293,  Receivables on claims                            ,,Asset,,Yes,,T_DUE_ACCT,229
 23,CURRENT FINANCIAL INVESTMENTS,,Asset,,,Yes,,2
 231,The current financial assets measured through prof,,Asset,,,Yes,,23
-24,Long Term Liabilities,,Asset,,,Yes,,2
-25,Owner's Equity/Net Worth,,Owner's Equity,,,Yes,,
-26,Capital,,Owner's Equity,,,Yes,,3
-27,Earnings,,Owner's Equity,,,Yes,,3
-28,Sales,,Revenue,,,Yes,,
-29,Trade Revenue,Default Product or Service revenue,Revenue,,Yes,,P_REVENUE_ACCT,4
-30,Unearned revenue,"We have invoiced, but not delivered yet",Revenue,,Yes,,UNEARNEDREVENUE_ACCT,4
-31,Sales Discounts,,Revenue,,,Yes,,4
-32,Trade Discounts,Granted Trade discounts (corrects Product Revenue),Revenue,,Yes,,P_TRADEDISCOUNTGRANT_ACCT,49
-33,Payment discount expense,Granted early payment discount to customers,Revenue,,Yes,,PAYDISCOUNT_EXP_ACCT,49
-34,Cost of Goods Sold,,Expense,,,Yes,,
-35,Product CoGs,Cost of Goods Sold,Expense,,Yes,,P_COGS_ACCT,5
-36,Product Expense,Default Service costs (I.e. not on inventory),Expense,,Yes,,P_EXPENSE_ACCT,5
-37,Product Cost Adjustment,Product Cost Adjustments,Expense,,Yes,,P_COSTADJUSTMENT_ACCT,5
-38,Landed Cost Clearing,Default Landed Cost Clearing,Expense,,Yes,,P_LANDEDCOSTCLEARING_ACCT,5
-39,Product Inventory Clearing,Default Product costs (I.e. on inventory),Expense,,Yes,,P_INVENTORYCLEARING_ACCT,5
-40,Returns,,Expense,,,Yes,,5
-41,Inventory CoGs,,Expense,,,Yes,,5
-42,Inventory Shrinkage,Physical Inventory Gain/Loss,Expense,,Yes,,W_DIFFERENCES_ACCT,56
-43,CoGS Variances,,Expense,,,Yes,,5
-44,Invoice price variance,Difference between product cost and invoice price (IPV),Expense,,Yes,,P_INVOICEPRICEVARIANCE_ACCT,58
-45,Purchase price variance,Difference between purchase price and standard costs (PPV),Expense,,Yes,,P_PURCHASEPRICEVARIANCE_ACCT,58
-46,Purchase price variance Offset,Offset Account for Purchase price variance (PPV),Expense,,Yes,,PPVOFFSET_ACCT,58
-47,Method Change Variance,Account for Method Change Variance,Expense,,Yes,,P_RATEVARIANCE_ACCT,58
-48,Average Cost Variance,Account for Average Cost Variance,Expense,,Yes,,P_AVERAGECOSTVARIANCE_ACCT,58
-49,Landed Cost Clearing,Account for Landed Cost Clearing,Expense,,Yes,,P_LANDEDCOSTCLEARING_ACCT,58
-50,CoGs Discounts,,Expense,,,Yes,,5
-51,Trade discounts received,Received Trade Discounts (corrects Product expense),Expense,,Yes,,P_TRADEDISCOUNTREC_ACCT,59
-52,Payment discount revenue,Granted early payment discount from vendors,Expense,,Yes,,PAYDISCOUNT_REV_ACCT,59
-53,Expenses,,Expense,,,Yes,,
-54,Payroll Expenses,,Expense,,,Yes,,6
-55,Occupancy Cost,,Expense,,,Yes,,6
-56,Advertising,,Expense,,,Yes,,6
-57,Telephone and Communications,,Expense,,,Yes,,6
-58,Professional Services,,Expense,,,Yes,,6
-59,Stationary & Supplies,,Expense,,,Yes,,6
-60,Data Processing,,Expense,,,Yes,,6
-61,Depreciation Expense,,Expense,,,Yes,,6
-62,Business Travel,,Expense,,,Yes,,6
-63,Insurance,,Expense,,,Yes,,6
-64,Payment Processor Costs,,Expense,,,Yes,,6
-65,Dues & Subscription,,Expense,,,Yes,,6
-66,Office Expense,,Expense,,,Yes,,6
-67,Posting & Shipping,,Expense,,,Yes,,6
-68,Taxes and Licenses,,Expense,,,Yes,,6
-69,Tax expense,Sales Tax paid to Vendors,Expense,,Yes,,T_EXPENSE_ACCT,74
-70,Education,,Expense,,,Yes,,6
-71,Equipment Rent,,Expense,,,Yes,,6
-72,Repairs & Maintenance,,Expense,,,Yes,,6
-73,Other Operating Expenses,,Expense,,,Yes,,6
-74,Bad Debts Write-off,Receivables write-off - bad debt,Expense,,Yes,,WRITEOFF_ACCT,78
-75,Matched Invoice Write-off,Matched Invoice Write-off,Expense,,,,C_MatchInv_WriteOff_Acct,78
-76,Petty Cash Over/Short,Petty Cash Differences,Expense,,Yes,,CB_DIFFERENCES_ACCT,78
-77,Default/Suspense Accounts,Temporary accounts - balance should be zero,Expense,,,Yes,,6
-78,Default account,Default Account (if no other account is defined) V1.1,Expense,,Yes,,DEFAULT_ACCT,79
-79,Suspense balancing,Difference to make journal balance in source currency - needs to be solved,Expense,,Yes,,SUSPENSEBALANCING_ACCT,79
-80,Cash book expense,Default other expense for petty cash transactions,Expense,,Yes,,CB_EXPENSE_ACCT,79
-81,Cash book receipts,Default other revenue for petty cash transactions,Revenue,,Yes,,CB_RECEIPT_ACCT,79
-82,Charge expense,Default other expense,Expense,,Yes,,CH_EXPENSE_ACCT,79
-83,Other Income,,Revenue,,,Yes,,
-84,Interest Income,Bank interest revenue,Revenue,,Yes,,B_INTERESTREV_ACCT,80
-85,Currency Gain,,Revenue,,,Yes,,80
-86,Unrealized gain,Difference between foreign currency receivables/payables and current rate,Revenue,,Yes,,UNREALIZEDGAIN_ACCT,805
-87,Realized gain,Difference between invoice and payment currency,Revenue,,Yes,,REALIZEDGAIN_ACCT,805
-88,Other Expense,,Expense,,,Yes,,
-89,Interest Expense,Bank interest expense,Expense,,Yes,,B_INTERESTEXP_ACCT,82
-90,Currency Loss,,Expense,,,Yes,,82
-91,Unrealized loss,Difference between foreign currency receivables/payables and current rate,Expense,,Yes,,UNREALIZEDLOSS_ACCT,825
-92,Realized loss,Difference between invoice and payment currency,Expense,,Yes,,REALIZEDLOSS_ACCT,825
-93,Currency balancing,Rounding difference to make journal balance in accounting currency,Expense,,Yes,,CURRENCYBALANCING_ACCT,825
-94,Expense (Absorbed),,Expense,,,Yes,,
-95,Income Tax & Summary,,Expense,,,Yes,,
-96,Costing,,Memo,,,Yes,,
-97,Commitment Accounting,,Memo,,,Yes,,
-98,PO Commitment,,Memo,,,,COMMITMENTOFFSET_ACCT,95
-99,SO Commitment,,Memo,,,,COMMITMENTOFFSETSALES_ACCT,95
+2311,  Fin.assets keeped for proposals of sale           ,,Asset,,Yes,,T_DUE_ACCT,231
+2312,  Primarily as the classified  current financial as ,,Asset,,Yes,,T_DUE_ACCT,231
+2313,  Primarily as the classified  current part of non- ,,Asset,,Yes,,T_DUE_ACCT,231
+232,Current fin.assets available for sale             ,,Asset,,Yes,,T_DUE_ACCT,23
+2321,  Current fin.assets available for sale             ,,Asset,,Yes,,T_DUE_ACCT,232
+2322,  Current part of non-cur.fin.ass.avail. for sale   ,,Asset,,Yes,,T_DUE_ACCT,232
+233,Total earn from cur.inv.keeped untill time to run ,,Asset,,Yes,,T_DUE_ACCT,23
+234,S-Tpart of tot.ear.fromL-Tinv.keep.unt.time to run,,Asset,,Yes,,T_DUE_ACCT,23
+235,Total earn.from short-term lending                ,,Asset,,Yes,,T_DUE_ACCT,23
+236,Short-term part of total ear.fro long-term lending,,Asset,,Yes,,T_DUE_ACCT,23
+237,Short-term part of total ear. from finance lease  ,,Asset,,Yes,,T_DUE_ACCT,23
+238,Unear.fin.inc.from sh-t fin.ass.calc.on depr.cost ,,Asset,,Yes,,T_DUE_ACCT,23
+2381,  Unear.fin.inc.from sh-t.inv.keeped unt.time to run,,Asset,,Yes,,T_DUE_ACCT,238
+2382,  Unear.f.inc.from s-t.part of l-t.inv.keep.unt.time,,Asset,,Yes,,T_DUE_ACCT,238
+2383,  Unear.fin.inc.from short-term lending             ,,Asset,,Yes,,T_DUE_ACCT,238
+2384,  Unear.f.inc.from short-term part of long-term lend,,Asset,,Yes,,T_DUE_ACCT,238
+2385,  Unear.fin.inc. from short-term part of finan.lease,,Asset,,Yes,,T_DUE_ACCT,238
+239,Cur.fin.assets provided for hedging               ,,Asset,,Yes,,T_DUE_ACCT,23
+241,Devaluation (non-repayb.) of cur.fin.assets       ,,Asset,,Yes,,T_DUE_ACCT,23
+2412,  Devaluation of cur.fin.assets available for sale  ,,Asset,,Yes,,T_DUE_ACCT,241
+2413,  Non-repayab.of short-term inv.keep unt.time to run,,Asset,,Yes,,T_DUE_ACCT,241
+2414,  Non-rep.of s-t part of l-t inv.keep.unt.time to ru,,Asset,,Yes,,T_DUE_ACCT,241
+2415,  Non-repayabl.of  lending                          ,,Asset,,Yes,,T_DUE_ACCT,241
+2416,  Non-rep.of short-term part of long-term lending   ,,Asset,,Yes,,T_DUE_ACCT,241
+2417,   Non-rep.of s-t part of total earn.from fin.lease ,,Asset,,Yes,,T_DUE_ACCT,241
+25,CASH                                              ,,Asset,,Yes,,T_DUE_ACCT,2
+251, Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,25
+2510,   Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,25
+251002,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251003,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251010,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251011,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251014,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251016,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251018,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251019,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+2511,   Cash in National Currency                         ,,Asset,,Yes,,T_DUE_ACCT,251
+2512,   Cash in Foreign Currency                          ,,Asset,,Yes,,T_DUE_ACCT,251
+2513,   Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251301,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251302,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251303,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251310,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251311,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251314,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+2513161,       Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+2513162,       Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251318,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251319,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251320,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+251322,      Cash in hand                                      ,,Asset,,Yes,,T_DUE_ACCT,251
+252, Settlement Account                                ,,Asset,,,Yes,,25
+25201,                                                 ,,Asset,,,Yes,,252
+2521, Settlement Account                  ,,Asset,,Yes,,T_DUE_ACCT,252
+25211,   Settlement Account                 ,,Asset,,Yes,,T_DUE_ACCT,252
+25212,   Settlement Account                 ,,Asset,,Yes,,T_DUE_ACCT,252
+25213,   Settlement Account                 ,,Asset,,Yes,,T_DUE_ACCT,252
+25214,                                                 ,,Asset,,Yes,,T_DUE_ACCT,252
+25215,                                                 ,,Asset,,Yes,,T_DUE_ACCT,252
+25216,   Settlement Account                 ,,Asset,,Yes,,T_DUE_ACCT,252
+2522, Frozen settlment account          ,,Asset,,Yes,,T_DUE_ACCT,252
+25221,   Frozen settlment account         ,,Asset,,Yes,,T_DUE_ACCT,252
+253,Foreign currency account            ,,Asset,,Yes,,T_DUE_ACCT,25
+2531, Foreign currency account          ,,Asset,,Yes,,T_DUE_ACCT,253
+25311,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25312,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25313,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25314,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25315,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25316,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25317,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25318,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25319,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25320,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+25321,   Foreign currency account         ,,Asset,,Yes,,T_DUE_ACCT,253
+2533, Frozen foreign currency account,,Asset,,Yes,,T_DUE_ACCT,253
+254,Other bank accounts                  ,,Asset,,Yes,,T_DUE_ACCT,25
+2541, Letters of credit                        ,,Asset,,Yes,,T_DUE_ACCT,254
+2542, Check books                            ,,Asset,,Yes,,T_DUE_ACCT,254
+2543, Other bank accounts                 ,,Asset,,Yes,,T_DUE_ACCT,254
+2545, Other bank accounts                 ,,Asset,,Yes,,T_DUE_ACCT,254
+255,CASH                                        ,,Asset,,Yes,,T_DUE_ACCT,25
+2550, CASH                                      ,,Asset,,Yes,,T_DUE_ACCT,25
+255001,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
+255002,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
+255003,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
+255004,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
+255005,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
+255006,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
+255007,    CASH                                   ,,Asset,,Yes,,T_DUE_ACCT,255
+2550071,   CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+2550072,   CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+2550073,   CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+255008, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
+255009, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
+255010,                   ,,Asset,,Yes,,T_DUE_ACCT,255
+255011, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
+255012, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
+255013,                   ,,Asset,,Yes,,T_DUE_ACCT,255
+2550131,                    ,,Asset,,Yes,,T_DUE_ACCT,255
+2550132,                    ,,Asset,,Yes,,T_DUE_ACCT,255
+255014, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
+2550181,   CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+255019, CASH         ,,Asset,,Yes,,T_DUE_ACCT,255
+255020, CASH         ,,Asset,,,Yes,,255
+255021, CASH         ,,Asset,,,Yes,,255
+2551,                  ,,Asset,,Yes,,T_DUE_ACCT,255
+255101,                  ,,Asset,,Yes,,T_DUE_ACCT,255
+2552,                  ,,Asset,,Yes,,T_DUE_ACCT,255
+25520,                  ,,Asset,,Yes,,T_DUE_ACCT,255
+255200, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+2552001,  CASH       ,,Asset,,Yes,,T_DUE_ACCT,255
+2552002,  CASH       ,,Asset,,Yes,,T_DUE_ACCT,255
+2552003,  CASH       ,,Asset,,Yes,,T_DUE_ACCT,255
+2552004,  CASH       ,,Asset,,Yes,,T_DUE_ACCT,255
+2552009,  CASH       ,,Asset,,Yes,,T_DUE_ACCT,255
+255201, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+255202, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+255203, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+255204, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+255205, CASH        ,,Asset,,Yes,,T_DUE_ACCT,255
+255206,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
+255207,             ,,Asset,,Yes,,T_DUE_ACCT,255
+2552071,             ,,Asset,,Yes,,T_DUE_ACCT,255
+2552072,             ,,Asset,,Yes,,T_DUE_ACCT,255
+2552073,             ,,Asset,,Yes,,T_DUE_ACCT,255
+255208,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
+255209,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
+255210,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
+255211,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
+255212,CASH    ,,Asset,,Yes,,T_DUE_ACCT,255
+255213,             ,,Asset,,Yes,,T_DUE_ACCT,255
+2552131,             ,,Asset,,Yes,,T_DUE_ACCT,255
+2552132,             ,,Asset,,Yes,,T_DUE_ACCT,255
+255214,             ,,Asset,,Yes,,T_DUE_ACCT,255
+2552181,             ,,Asset,,Yes,,T_DUE_ACCT,255
+255219,             ,,Asset,,Yes,,T_DUE_ACCT,255
+255220,             ,,Asset,,Yes,,T_DUE_ACCT,255
+255221,             ,,Asset,,Yes,,T_DUE_ACCT,255
+2553,                                                     ,,Asset,,Yes,,T_DUE_ACCT,255
+256, Cash documents                                    ,,Asset,,Yes,,T_DUE_ACCT,25
+258, Currency conversion                               ,,Asset,,Yes,,T_DUE_ACCT,25
+2581,   Currency conversion for bank accounts             ,,Asset,,Yes,,T_DUE_ACCT,258
+2582,   Currency conversion` D/C                          ,,Asset,,Yes,,T_DUE_ACCT,258
+26,OTHER CURRENT ASSETS                              ,,Asset,,Yes,,T_DUE_ACCT,2
+261, Current assets' offset on deferred indirect taxes ,,Asset,,Yes,,T_DUE_ACCT,26
+2611,   Current assets on deferred taxes (VAT)            ,,Asset,,Yes,,T_DUE_ACCT,261
+262,                                                   ,,Asset,,Yes,,T_DUE_ACCT,26
+2621,                                                     ,,Asset,,Yes,,T_DUE_ACCT,262
+262.1,   DEFERRED EXPENSES                                 ,,Asset,,Yes,,T_DUE_ACCT,262
+263, Assets classified as keeped for purposes of sale  ,,Asset,,Yes,,T_DUE_ACCT,26
+2631,   Fixed assets classified as keeped for purposes of,,Asset,,Yes,,T_DUE_ACCT,263
+2632,   Intangible assets classified as keeped for purpose,,Asset,,Yes,,T_DUE_ACCT,263
+2633,   Other non-current assets classified as keeped for ,,Asset,,Yes,,T_DUE_ACCT,263
+2634,   Current assets in alienation group classified as k,,Asset,,Yes,,T_DUE_ACCT,263

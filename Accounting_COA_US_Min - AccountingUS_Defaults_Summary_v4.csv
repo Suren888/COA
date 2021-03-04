@@ -157,21 +157,112 @@
 18,Accumulated Depreciation,,Asset,,,Yes,,1
 19,Other Assets,,Asset,,,Yes,,1
 191,Intangible Assets,,Asset,,,Yes,,19
-2,Liabilities,,Liability,,,Yes,,
-21,Accounts Payables,,Liability,,,Yes,,2
-211,Accounts Payables Trade,,Liability,,,Yes,,21
-21100,Accounts Payable Trade,Accounts Payables,Liability,,Yes,,V_LIABILITY_ACCT,211
-21190,Not invoiced receipts,"Received products/services from vendors, but not invoiced",Liability,,Yes,,NOTINVOICEDRECEIPTS_ACCT,211
-21200,Accounts Payable Services,Accounts Payables for non-product revenue,Liability,,Yes,,V_LIABILITY_SERVICES_ACCT,21
-21300,Payment selection,Selected A/P invoices for payment,Liability,,Yes,,B_PAYMENTSELECT_ACCT,21
-215,Customer Payables,,Liability,,,Yes,,21
-21510,Customer Prepayments,Prepayments for future revenue,Liability,,Yes,,C_PREPAYMENT_ACCT,215
-216,Tax Payables,,Liability,,,Yes,,21
-21610,Tax due,Tax to be paid - before tax declaration,Liability,,Yes,,T_DUE_ACCT,216
-21800,Intercompany Due To,Default Payables account for intercompany trx,Liability,,Yes,,INTERCOMPANYDUETO_ACCT,21
-22,Accrued Expenses,,Liability,,,Yes,,2
-23,Current Note Payables,,Liability,,,Yes,,2
-24,Long Term Liabilities,,Liability,,,Yes,,2
+2,Other Assets,,Asset,,,Yes,,
+21,INVENTORY AND BIOLOGICAL ASSETS,,Asset,,,Yes,,2
+211,Materials,,Asset,,,Yes,,21
+21110,Raw materials and materials,Accounts Payables,Asset,,Yes,,V_LIABILITY_ACCT,211
+21120,"Procured semi-finished products,compl.parts,compon",Accounts Payables,Asset,,Yes,,V_LIABILITY_ACCT,211
+21130,Fuel                                              ,Accounts Payables,Asset,,Yes,,V_LIABILITY_ACCT,211
+21140,Containers and packaging materials                ,Accounts Payables,Asset,,Yes,,V_LIABILITY_ACCT,211
+21150,Spare parts                                       ,Accounts Payables,Asset,,Yes,,V_LIABILITY_ACCT,211
+21160,Construction materials                            ,Accounts Payables,Asset,,Yes,,V_LIABILITY_ACCT,211
+21170,Agricultural materials                            ,Accounts Payables,Asset,,Yes,,V_LIABILITY_ACCT,211
+21180,Materials transferred in processing               ,Accounts Payables,Asset,,Yes,,V_LIABILITY_ACCT,211
+21190,Other materials                                   ,,Asset,,,Yes,,211
+21200,Consumed Biological Assets,Accounts Payables for non-product revenue,Asset,,Yes,,V_LIABILITY_SERVICES_ACCT,21
+21300,Absent,Absent,Asset,,Yes,,B_PAYMENTSELECT_ACCT,21
+21310,Absent,Absent,Asset,,Yes,,B_PAYMENTSELECT_ACCT,213
+21400,Work-in-process,,Asset,,Yes,,B_PAYMENTSELECT_ACCT,21
+21410,Work-in-process(manufacturing)           ,,Asset,,Yes,,B_PAYMENTSELECT_ACCT,214
+21420,Work-in-process(making)                     ,,Asset,,Yes,,B_PAYMENTSELECT_ACCT,214
+21430,Work-in-process(services)                    ,,Asset,,Yes,,B_PAYMENTSELECT_ACCT,214
+21440,Work-in-process(auxiliary processing)   ,,Asset,,Yes,,B_PAYMENTSELECT_ACCT,214
+215,Product,,Asset,,,Yes,,21
+21510,Finished products,Prepayments for future revenue,Asset,,Yes,,C_PREPAYMENT_ACCT,215
+21520,Semi-finished products of own production          ,Prepayments for future revenue,Asset,,Yes,,C_PREPAYMENT_ACCT,215
+21530,Products transferred for sale on cons.and com.bas ,Prepayments for future revenue,Asset,,Yes,,C_PREPAYMENT_ACCT,215
+21540,Products shipped                                  ,Prepayments for future revenue,Asset,,Yes,,C_PREPAYMENT_ACCT,215
+216,Goods,,Asset,,,Yes,,21
+21610,Goods in warehouse,,Asset,,Yes,,T_DUE_ACCT,216
+21620,Goods,,Asset,,Yes,,T_DUE_ACCT,216
+21621,Goods,,Asset,,Yes,,T_DUE_ACCT,216
+2163,Containers and packaging materials                ,,Asset,,Yes,,T_DUE_ACCT,216
+2164,Goods transferred for sale on consig.and com.bases,,Asset,,Yes,,T_DUE_ACCT,216
+2165,Goods shipped                                     ,,Asset,,Yes,,T_DUE_ACCT,216
+2166,Other goods                                       ,,Asset,,Yes,,T_DUE_ACCT,216
+2167,Absent,,Asset,,Yes,,T_DUE_ACCT,216
+2170,Containers and packaging materials                ,,Asset,,Yes,,T_DUE_ACCT,21
+2171,Trade make-up ,,Asset,,Yes,,T_DUE_ACCT,217
+2172,VAT                ,,Asset,,Yes,,T_DUE_ACCT,217
+2173,Excise tax       ,,Asset,,Yes,,T_DUE_ACCT,217
+2180,Reduction of the inventory value ,,Asset,,Yes,,T_DUE_ACCT,21
+2181,Reduction of the materials value           ,,Asset,,Yes,,T_DUE_ACCT,218
+2184,Reduction of the work-in-process value ,,Asset,,Yes,,T_DUE_ACCT,218
+2185,Reduction of the products value           ,,Asset,,Yes,,T_DUE_ACCT,218
+2186,Reduction of the goods value               ,,Asset,,Yes,,T_DUE_ACCT,218
+2190,Variance account,,Asset,,Yes,,T_DUE_ACCT,21
+22,OPERATING AND OTHER CURRENT RECEIVABLES,,Asset,,Yes,,T_DUE_ACCT,2
+221,Receivables from sales                            ,,Asset,,Yes,,T_DUE_ACCT,22
+2211,Receivables from sales of products and goods      ,,Asset,,Yes,,T_DUE_ACCT,221
+2212,Receivables from leaving of services              ,,Asset,,Yes,,T_DUE_ACCT,221
+2213,Receivables from sales of the other inventory     ,,Asset,,Yes,,T_DUE_ACCT,221
+2214,Receivables from disposals of finan.investments   ,,Asset,,Yes,,T_DUE_ACCT,221
+2215,Receivables from disposals of fixed assets        ,,Asset,,Yes,,T_DUE_ACCT,221
+2216,Receivables from other sales,,Asset,,Yes,,T_DUE_ACCT,221
+2200,Receivables from other income,,Asset,,Yes,,T_DUE_ACCT,2
+2210,Receivables from sales,,Asset,,Yes,,T_DUE_ACCT,22
+2220,Receivables from other income,,Asset,,Yes,,T_DUE_ACCT,22
+2221,Receivables on operat.lease         ,,Asset,,Yes,,T_DUE_ACCT,222
+2222,Receivables on dividends             ,,Asset,,Yes,,T_DUE_ACCT,222
+2223,Receivables on accrued               ,,Asset,,Yes,,T_DUE_ACCT,222
+2224,Receivables on insurance money  ,,Asset,,Yes,,T_DUE_ACCT,222
+2225,Receivables on fines and penalties,,Asset,,Yes,,T_DUE_ACCT,222
+2226,Receivables on material losses     ,,Asset,,Yes,,T_DUE_ACCT,222
+2227,Receivables on other income        ,,Asset,,Yes,,T_DUE_ACCT,222
+2230,Reserv.for pos.losses,,Asset,,Yes,,T_DUE_ACCT,22
+2231,Receivables on dividends             ,,Asset,,Yes,,T_DUE_ACCT,223
+2232,Receivables on accrued               ,,Asset,,Yes,,T_DUE_ACCT,223
+224,Receivables on insurance money  ,,Asset,,Yes,,T_DUE_ACCT,22
+2241,Prepayments made for acquisition of materials,,Asset,,Yes,,T_DUE_ACCT,224
+2242,Current prepayments made                          ,,Asset,,Yes,,T_DUE_ACCT,224
+22421,Current prepayments made                          ,,Asset,,Yes,,T_DUE_ACCT,224
+22422,Current prepayments made                          ,,Asset,,Yes,,T_DUE_ACCT,224
+22423,Absent,,Asset,,Yes,,T_DUE_ACCT,224
+22424,Absent,,Asset,,Yes,,T_DUE_ACCT,224
+2243,Prepayments for acquisition of working and service,,Asset,,Yes,,T_DUE_ACCT,224
+2245,Prepayments for other purposes,,Asset,,Yes,,T_DUE_ACCT,224
+2250,SHORT-TERM RECEIVABLES ON SETTLMENTS WITH BUDGET,,Asset,,Yes,,T_DUE_ACCT,22
+2251,SHORT-TERM RECEIVABLES ON SETTLMENTS WITH BUDGET,,Asset,,Yes,,T_DUE_ACCT,225
+22511,Absent                                           ,,Asset,,Yes,,T_DUE_ACCT,225
+22512,Absent,,Asset,,Yes,,T_DUE_ACCT,225
+2252,Short-term receivables on Income tax           ,,Asset,,Yes,,T_DUE_ACCT,225
+2253,Short-term receivables on VAT                    ,,Asset,,Yes,,T_DUE_ACCT,225
+2254,Receivables on excise tax                         ,,Asset,,Yes,,T_DUE_ACCT,225
+2255,Receivables on property tax                       ,,Asset,,Yes,,T_DUE_ACCT,225
+2256,Receivables on land tax                           ,,Asset,,Yes,,T_DUE_ACCT,225
+2257,Receivables on custom tax                         ,,Asset,,Yes,,T_DUE_ACCT,225
+2258,Receivables on state due                          ,,Asset,,Yes,,T_DUE_ACCT,225
+2259,Receivables on other compulsory payments  ,,Asset,,Yes,,T_DUE_ACCT,225
+22591, Receivables on other compulsory payments,,Asset,,Yes,,T_DUE_ACCT,225
+2245,Prepayments for other purposes,,Asset,,Yes,,T_DUE_ACCT,224
+226,Indirect taxes subject to set-off(compensation)   ,,Asset,,Yes,,T_DUE_ACCT,22
+2261, Indirect taxes subject to set-off VAT             ,,Asset,,Yes,,T_DUE_ACCT,226
+22611,   Taxes subject to set-off VAT(current month)       ,,Asset,,Yes,,T_DUE_ACCT,226
+22612,   Taxes subject to set-off VAT(previous month)      ,,Asset,,Yes,,T_DUE_ACCT,226
+22613,   Indirect VAT subject to set-off from abroad       ,,Asset,,Yes,,T_DUE_ACCT,226
+227,Receivables on compulsory social insur.           ,,Asset,,Yes,,T_DUE_ACCT,22
+2271, Receivables on compulsory social insur.           ,,Asset,,Yes,,T_DUE_ACCT,227
+228,Receivables on accountable payments               ,,Asset,,Yes,,T_DUE_ACCT,22
+2281, Accountable payments for acquisition of materials ,,Asset,,Yes,,T_DUE_ACCT,228
+2282, Accountable payments for acquisition of goods     ,,Asset,,Yes,,T_DUE_ACCT,228
+2283, Accountable payments for actions                  ,,Asset,,Yes,,T_DUE_ACCT,228
+2284, Accountable payments for other purposes ,,Asset,,Yes,,T_DUE_ACCT,228
+229,Other  receivables                                ,,Asset,,Yes,,T_DUE_ACCT,22
+2291,  Receivables on labor payment                 ,,Asset,,Yes,,T_DUE_ACCT,229
+2292,  Receivables from pers.on other operations,,Asset,,Yes,,T_DUE_ACCT,229
+2293,  Receivables on claims                            ,,Asset,,Yes,,T_DUE_ACCT,229
+23,CURRENT FINANCIAL INVESTMENTS,,Asset,,,Yes,,2
+24,Long Term Liabilities,,Asset,,,Yes,,2
 3,Owner's Equity/Net Worth,,Owner's Equity,,,Yes,,
 31,Capital,,Owner's Equity,,,Yes,,3
 32,Earnings,,Owner's Equity,,,Yes,,3
@@ -245,5 +336,5 @@
 89,Income Tax & Summary,,Expense,,,Yes,,
 91,Costing,,Memo,,,Yes,,
 95,Commitment Accounting,,Memo,,,Yes,,
-952,PO Commitment,,Memo,,,No,COMMITMENTOFFSET_ACCT,95
-953,SO Commitment,,Memo,,,No,COMMITMENTOFFSETSALES_ACCT,95
+952,PO Commitment,,Memo,,,,COMMITMENTOFFSET_ACCT,95
+953,SO Commitment,,Memo,,,,COMMITMENTOFFSETSALES_ACCT,95

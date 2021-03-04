@@ -775,3 +775,240 @@
 6742,                                                   ,,Expense,,,Yes,,674
 6743,                                                   ,,Expense,,,Yes,,674
 675,                                                   ,,Expense,,,Yes,,67
+71, EXPENSES ON OPERATING ACTIVITY                    ,,Expense,,,Yes,,7
+711,"  Cost of prod.,goods sold,works,services provided  ",,Expense,,,Yes,,71
+7111,  Cost of product sold                              ,,Expense,,,Yes,,711
+7112,  Cost of goods sold                                ,,Expense,,,Yes,,711
+7113,  Cost of works completed                           ,,Expense,,,Yes,,711
+7114,  Cost of services provided(rendered)               ,,Expense,,,Yes,,711
+712,  Sales(trade)expenses                              ,,Expense,,,Yes,,71
+7121,  Expenses on labor and social security payments    ,,Expense,,,Yes,,712
+7122,"  Fixed assets deprecation,repair,maintenance expen.",,Expense,,,Yes,,712
+7123,"  Exp.on pack.,sort.,cont.,stor.of pr.,g-s in wareh.",,Expense,,,Yes,,712
+7124,  Transport.and ins.expen.relating to ship.of goods ,,Expense,,,Yes,,712
+7125,  Commision and comsigment fees                     ,,Expense,,,Yes,,712
+7126,  Marketing and advertisign expenses                ,,Expense,,,Yes,,712
+7127,  Other sales(trade) expenses                       ,,Expense,,,Yes,,712
+713,  Administrative expenses                           ,,Expense,,,Yes,,71
+7131,  Expenses on labor and social insurance expenses   ,,Expense,,,Yes,,713
+7132,"  Deprec., repair.,maintain.expenses of fixed assets",,Expense,,,Yes,,713
+7133,  Activity and representation expenses              ,,Expense,,,Yes,,713
+7134,  Mail and communication expenses                   ,,Expense,,,Yes,,713
+7135,  Office supply and utilities expenses              ,,Expense,,,Yes,,713
+7136,  Audit and consulting services expenses            ,,Expense,,,Yes,,713
+7137,  Administrative expenses                           ,,Expense,,,Yes,,713
+71371,   Bank services and insurance expenses              ,,Expense,,,Yes,,713
+71372,                                                     ,,Expense,,,Yes,,713
+71373,                                                     ,,Expense,,,Yes,,713
+71374,                                                     ,,Expense,,,Yes,,713
+71375,                                                     ,,Expense,,,Yes,,713
+71376,   Administrative expenses                           ,,Expense,,,Yes,,713
+71379,                                                     ,,Expense,,,Yes,,713
+7138,  Expenses on non-compensated taxes                 ,,Expense,,,Yes,,713
+7139,  Other administrative expenses                     ,,Expense,,,Yes,,713
+714,  Other operational expenses                        ,,Expense,,,Yes,,71
+7141,  Other operational expenses                        ,,Expense,,,Yes,,714
+71411,   Other operational expenses                        ,,Expense,,,Yes,,714
+71412,   Other operational expenses                        ,,Expense,,,Yes,,714
+7142,"  Exp.on los.from inv-y dev.,receiv.,guar.serv.,rep.",,Expense,,,Yes,,714
+71421,"   Exp.on los.from inv-y dev.,receiv.,guar.serv.,rep.",,Expense,,,Yes,,714
+71422,"   Exp.on los.from inv-y dev.,receiv.,guar.serv.,rep.",,Expense,,,Yes,,714
+71423,"   Exp.on los.from inv-y dev.,receiv.,guar.serv.,rep.",,Expense,,,Yes,,714
+7143,  Ex.on depr.of fix.ass.leased out under oper. lease,,Expense,,,Yes,,714
+7144,"  Expenses on fines and penalties,litigation expens.",,Expense,,,Yes,,714
+7145,"  Ex.on short.and dam.of val.,exc.st.lev.of f/c,def.",,Expense,,,Yes,,714
+71451,"   Ex.on short.and dam.of val.,exc.st.lev.of f/c,def.",,Expense,,,Yes,,714
+71452,"   Ex.on short.and dam.of val.,exc.st.lev.of f/c,def.",,Expense,,,Yes,,714
+71453,"   Ex.on short.and dam.of val.,exc.st.lev.of f/c,def.",,Expense,,,Yes,,714
+7146,  Expenses on research and processing               ,,Expense,,,Yes,,714
+7147,"  Ex.on stor.of F/A,tem.not used in op.,disp.of F/A ",,Expense,,,Yes,,714
+71471,"   Ex.on stor.of F/A,tem.not used in op.,disp.of F/A ",,Expense,,,Yes,,714
+71472,"   Ex.on stor.of F/A,tem.not used in op.,disp.of F/A ",,Expense,,,Yes,,714
+7148,  Other operational expenses                        ,,Expense,,,Yes,,714
+715,                                                    ,,Expense,,,Yes,,71
+7151,                                                    ,,Expense,,,Yes,,715
+7152,                                                    ,,Expense,,,Yes,,715
+7153,                                                    ,,Expense,,,Yes,,715
+7154,                                                    ,,Expense,,,Yes,,715
+72,                                                   ,,Expense,,,Yes,,7
+721,  Expenses on sale(disposal)of non-current assets   ,,Expense,,,Yes,,72
+7211,  Expenses from sale(disposal)of fixed assets       ,,Expense,,,Yes,,721
+7212,  Expenses from sale(disposal)of intangible assets  ,,Expense,,,Yes,,721
+7213,  Expenses from sale(disposal)of non-cur.fin.assets ,,Expense,,,Yes,,721
+7214,  Expenses from sale(disposal)of other non-cur.asset,,Expense,,,Yes,,721
+722,  Expenses from sale (disposal)of current fin.assets,,Expense,,,Yes,,72
+724,  Ex.from remeas.of non-cur.tang.ass.and intang.ass ,,Expense,,,Yes,,72
+7241,  Expenses from revaluation of fixed assets         ,,Expense,,,Yes,,724
+7242,  Expenses from revaluation of intangible assets    ,,Expense,,,Yes,,724
+7243,  Losses from devaluation of fixed assets           ,,Expense,,,Yes,,724
+7244,  Expenses from devaluation of intangible assets    ,,Expense,,,Yes,,724
+7245,  Expenses from remeasuring of inv.property         ,,Expense,,,Yes,,724
+7246,                                                    ,,Expense,,,Yes,,724
+725,  Expenses on differance in foreign exchange rate   ,,Expense,,,Yes,,72
+726,  Ex.on remeas.and dev.(non-rep.) of non-op.fin.tool,,Expense,,,Yes,,72
+7261,                                                    ,,Expense,,,Yes,,72
+7263,"  Ex.on remeas.of non-oper.fin.assets,avail.for sale",,Expense,,,Yes,,726
+7264,  Expenses on remeas.of non-oper.hedging tools      ,,Expense,,,Yes,,726
+7265,  Losses on deval.(non-rep.) of non-oper fin.assets ,,Expense,,,Yes,,726
+727,  Financial Expenses                                ,,Expense,,,Yes,,72
+7271,"  Ex.on interest on cr.and loans,consid.transact.ex.",,Expense,,,Yes,,727
+7272,  Expenses on interest on finance lease             ,,Expense,,,Yes,,727
+7274,                                                    ,,Expense,,,Yes,,727
+7275,                                                    ,,Expense,,,Yes,,727
+728,  Expenses on gratis disposed assets                ,,Expense,,,Yes,,72
+729,  Other expenses                                    ,,Expense,,,Yes,,72
+73,                                                   ,,Expense,,,Yes,,7
+731,                                                    ,,Expense,,,Yes,,73
+732,                                                    ,,Expense,,,Yes,,73
+7321,                                                    ,,Expense,,,Yes,,732
+7322,                                                    ,,Expense,,,Yes,,732
+733,                                                    ,,Expense,,,Yes,,73
+7331,                                                    ,,Expense,,,Yes,,733
+7332,                                                    ,,Expense,,,Yes,,733
+74,                                                   ,,Expense,,,Yes,,7
+742,                                                    ,,Expense,,,Yes,,74
+743,                                                    ,,Expense,,,Yes,,74
+744,                                                    ,,Expense,,,Yes,,74
+7441,                                                    ,,Expense,,,Yes,,744
+7442,                                                    ,,Expense,,,Yes,,744
+7443,                                                    ,,Expense,,,Yes,,744
+75, PROFIT TAX EXPENSES(INCOMES)                      ,,Expense,,,Yes,,7
+751,  Profit tax expenses(incomes)                      ,,Expense,,,Yes,,75
+7511,  Expenses on profit cuurent tax(incomes)           ,,Expense,,,Yes,,751
+7512,  Expenses on deferred profit tax(incomes)          ,,Expense,,,Yes,,751
+77,                                                   ,,Expense,,,Yes,,7
+771,                                                    ,,Expense,,,Yes,,77
+7711,                                                    ,,Expense,,,Yes,,771
+7712,                                                    ,,Expense,,,Yes,,771
+7713,                                                    ,,Expense,,,Yes,,771
+7714,                                                    ,,Expense,,,Yes,,771
+772,                                                    ,,Expense,,,Yes,,77
+773,                                                    ,,Expense,,,Yes,,77
+774,                                                    ,,Expense,,,Yes,,77
+7741,                                                    ,,Expense,,,Yes,,774
+7742,                                                    ,,Expense,,,Yes,,774
+7743,                                                    ,,Expense,,,Yes,,774
+775,                                                    ,,Expense,,,Yes,,77
+81, PRODUCTION EXPENDITURES                           ,,Expense,,,Yes,,8
+811,  Main production                                   ,,Expense,,,Yes,,81
+8111,  Direct material costs                             ,,Expense,,,Yes,,811
+8112,  Direct labor costs                                ,,Expense,,,Yes,,811
+8113,  Direct expenitures on social insurance            ,,Expense,,,Yes,,811
+8114,  Other direct production costs                     ,,Expense,,,Yes,,811
+8115,  Auxiliary production expenditures                 ,,Expense,,,Yes,,811
+8116,  Indirect production costs                         ,,Expense,,,Yes,,811
+812,  Auxiliary production                              ,,Expense,,,Yes,,81
+8121,  Direct material costs                             ,,Expense,,,Yes,,812
+8122,  Direct labor costs                                ,,Expense,,,Yes,,812
+8123,  Direct expenditures on social insurance           ,,Expense,,,Yes,,812
+8124,  Other direct costs of auxiliary production        ,,Expense,,,Yes,,812
+8125,  Indirect production costs                         ,,Expense,,,Yes,,812
+813,  Indirect production costs                         ,,Expense,,,Yes,,81
+8131,  Labor costs on man.and sup.personnel of prod.divis,,Expense,,,Yes,,813
+8132,  Ex.on social ins.of man.and sup.pers.of prod.divis,,Expense,,,Yes,,813
+8133,  Deprecation of production fixed assets            ,,Expense,,,Yes,,813
+8134,  Expend.on repair and maintenance of prod.fixed ass,,Expense,,,Yes,,813
+8135,  Amortisation of production intangible assets      ,,Expense,,,Yes,,813
+8136,  Expenditures on labor protection and safety       ,,Expense,,,Yes,,813
+8137,  Travel expenditures of production personnel       ,,Expense,,,Yes,,813
+8138,  Other indirect production costs                   ,,Expense,,,Yes,,813
+814,  Rejects and expenditures on reconstruction of it  ,,Expense,,,Yes,,81
+8141,  Rejects                                           ,,Expense,,,Yes,,814
+8142,  Material expenditures on reconstruction of rejects,,Expense,,,Yes,,814
+8143,  Labor expenditures on reconstruction of rejects   ,,Expense,,,Yes,,814
+8144,  Soc.ins.expenditures on reconstruction of rejects ,,Expense,,,Yes,,814
+8145,  Other expenditures on reconstruction of rejects   ,,Expense,,,Yes,,814
+82, EXPEND. ON (CONSTRUCT.)BUILDING NON-CURREHT ASSETS,,Expense,,,Yes,,8
+821,  Expendit. on construction(building)of fixed assets,,Expense,,,Yes,,82
+8211,  Direct material costs                             ,,Expense,,,Yes,,821
+8212,  Direct labor costs                                ,,Expense,,,Yes,,821
+8213,  Direct expenditures on social insurance           ,,Expense,,,Yes,,821
+8214,  Other direct costs                                ,,Expense,,,Yes,,821
+8215,  Indirect costs                                    ,,Expense,,,Yes,,821
+822,  Expenditures on installing of equipments          ,,Expense,,,Yes,,82
+8221,  Direct material costs                             ,,Expense,,,Yes,,822
+8222,  Direct labor costs                                ,,Expense,,,Yes,,822
+8223,  Direct expenditures on social insurance           ,,Expense,,,Yes,,822
+8224,  Other direct costs                                ,,Expense,,,Yes,,822
+8225,  Indirect costs                                    ,,Expense,,,Yes,,822
+823,  Expenditures capitalized on fixed assets          ,,Expense,,,Yes,,82
+8231,  Direct material costs                             ,,Expense,,,Yes,,823
+8232,  Direct labor costs                                ,,Expense,,,Yes,,823
+8233,  Direct expenditures on social insurance           ,,Expense,,,Yes,,823
+8234,  Other direct costs                                ,,Expense,,,Yes,,823
+8235,  Indirect costs                                    ,,Expense,,,Yes,,823
+824,  Expen.on estab.inhouse intangible assets          ,,Expense,,,Yes,,82
+8241,  Direct material costs                             ,,Expense,,,Yes,,824
+8242,  Direct labor costs                                ,,Expense,,,Yes,,824
+8243,  Direct expenditures on social insurance           ,,Expense,,,Yes,,824
+8244,  Other direct costs                                ,,Expense,,,Yes,,824
+8245,  Indirect costs                                    ,,Expense,,,Yes,,824
+825,  Follow.expen.capitalized on intangible assets     ,,Expense,,,Yes,,82
+8251,  Direct material costs                             ,,Expense,,,Yes,,825
+8252,  Direct labor costs                                ,,Expense,,,Yes,,825
+8253,  Direct expenditures on social insurance           ,,Expense,,,Yes,,825
+8254,  Other direct costs                                ,,Expense,,,Yes,,825
+8255,  Indirect costs                                    ,,Expense,,,Yes,,825
+826,  Expen.on estab.of other intangible assets         ,,Expense,,,Yes,,82
+8261,  Direct material costs                             ,,Expense,,,Yes,,826
+8262,  Direct labor costs                                ,,Expense,,,Yes,,826
+8263,  Direct expenditures on social insurance           ,,Expense,,,Yes,,826
+8264,  Other direct costs                                ,,Expense,,,Yes,,826
+8265,  Indirect costs                                    ,,Expense,,,Yes,,826
+91, NON-CURRENT ASSETS NOT OWNED BY THE ENTERPRISE    ,,Memo,,,Yes,,9
+911,  Fixed assets under operational lease              ,,Memo,,,Yes,,91
+912,  Goods and mater.valuabl.accepted for safe keeping ,,Memo,,,Yes,,91
+913,  Material accepted for processing                  ,,Memo,,,Yes,,91
+914,  Equipment accepted for installation               ,,Memo,,,Yes,,91
+915,"  Goods accepted under the commision,consign.agreem.",,Memo,,,Yes,,91
+916,  Assets keeped as pledge                           ,,Memo,,,Yes,,91
+92," OFF-BALANCE SHEET ACC.MAN.UNDER BROK.ACT,TRUST AG.",,Memo,,,Yes,,9
+921,  Assets managed under trust agreement              ,,Memo,,,Yes,,92
+9211,  Monetary means managed under trust agreement      ,,Memo,,,Yes,,921
+9212,  Securities managed under trust agreement          ,,Memo,,,Yes,,921
+922,"  Assets reciev.under comission ,consig.agreement   ",,Memo,,,Yes,,92
+9221,"  Monet.means for inv.in secur.rec.under com.,con.ag",,Memo,,,Yes,,922
+9222,"  Securities received under comission,consig.agreem.",,Memo,,,Yes,,922
+9223,"  Securities acquired under com.,consig.agreement   ",,Memo,,,Yes,,922
+9224,"  Mon.means from sale of sec.rec.under the com.,con.",,Memo,,,Yes,,922
+923,"  From trust agr.,br.act.arised mon.means,lendings  ",,Memo,,,Yes,,92
+9231,  Receivables from sale of securities               ,,Memo,,,Yes,,923
+9232,  Receivables from accrued interests                ,,Memo,,,Yes,,923
+9233,  Receivables from declared dividends               ,,Memo,,,Yes,,923
+9234,  Lendings                                          ,,Memo,,,Yes,,923
+924,"  Liab.on ass.rec.under trust,com.,consig.agreement ",,Memo,,,Yes,,92
+9241,  Liab.on assets received under trust agreement     ,,Memo,,,Yes,,924
+9242,"  Liab.on assets received under com.,cons.agreement ",,Memo,,,Yes,,924
+925,  Financial result of founders(customers)           ,,Memo,,,Yes,,92
+926,"  Pay.,rec.loans from trust agreement,brok.activity ",,Memo,,,Yes,,92
+9261,  Payables on trust agreement & brok.activity       ,,Memo,,,Yes,,926
+9262,  Loans received                                    ,,Memo,,,Yes,,926
+93, CONDITIONAL LIABILITIES AND ASSETS                ,,Memo,,,Yes,,9
+931,  Conditional liabilities                           ,,Memo,,,Yes,,93
+932,  Conditional assets                                ,,Memo,,,Yes,,93
+94, OTHER MEANS AND LIABILITIES                       ,,Memo,,,Yes,,9
+941,  Receivables written off for purp.of tax accounting,,Memo,,,Yes,,94
+942,  Payables written off for purp.of tax accounting   ,,Memo,,,Yes,,94
+943,  Non-compensated loss on taxes                     ,,Memo,,,Yes,,94
+944,  Assets pledged                                    ,,Memo,,,Yes,,94
+945,  Blanks of strict accounting                       ,,Memo,,,Yes,,94
+946,  Periodic and professional literature              ,,Memo,,,Yes,,94
+947,  Fix.ass.of little value & short-life items in use ,,Memo,,,Yes,,94
+95,                                                   ,,Memo,,,Yes,,9
+951,                                                    ,,Memo,,,Yes,,95
+952,                                                    ,,Memo,,,Yes,,95
+953,                                                    ,,Memo,,,Yes,,95
+954,                                                    ,,Memo,,,Yes,,95
+955,                                                    ,,Memo,,,Yes,,95
+956,                                                    ,,Memo,,,Yes,,95
+9571,                                                    ,,Memo,,,Yes,,957
+9572,                                                    ,,Memo,,,Yes,,957
+9573,                                                    ,,Memo,,,Yes,,957
+958,                                                    ,,Memo,,,Yes,,95
+959,                                                    ,,Memo,,,Yes,,95
+96,                                                   ,,Memo,,,Yes,,9
+961,                                                    ,,Memo,,,Yes,,96
+97,                                                   ,,Memo,,,Yes,,9
+971,                                                    ,,Memo,,,Yes,,97
+972,                                                    ,,Memo,,,Yes,,97
+999,                                                    ,,Memo,,,Yes,,9

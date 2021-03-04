@@ -418,3 +418,185 @@
 2632,   Intangible assets classified as keeped for purpose,,Asset,,Yes,,T_DUE_ACCT,263
 2633,   Other non-current assets classified as keeped for ,,Asset,,Yes,,T_DUE_ACCT,263
 2634,   Current assets in alienation group classified as k,,Asset,,Yes,,T_DUE_ACCT,263
+3,Owner's Equity/Net Worth,,Owner's Equity,,,Yes,,
+31,CHARTER CAPITAL AND INCOME FROM EMISSION          ,,Owner's Equity,,,Yes,,3
+311, Charter(share-collecting)Capital                  ,,Owner's Equity,,,Yes,,31
+3111,   Ordinary Shares                                   ,,Owner's Equity,,,Yes,,311
+3112,   Preference Shares                                 ,,Owner's Equity,,,Yes,,311
+3113,   Shares in limited companies                       ,,Owner's Equity,,,Yes,,311
+3114,   Shares in partnerships                            ,,Owner's Equity,,,Yes,,311
+312, Unpaid Capital                                    ,,Owner's Equity,,,Yes,,31
+3121,   Emitted and unplaced capital                      ,,Owner's Equity,,,Yes,,312
+3122,   Placed and unpaid capital until the amount of nomi,,Owner's Equity,,,Yes,,312
+3123,   Placed and unpaid capital exceeding the amount of ,,Owner's Equity,,,Yes,,312
+313, Repurchased capital                               ,,Owner's Equity,,,Yes,,31
+3132,   Repurchased ordinary shares - equal to the differe,,Owner's Equity,,,Yes,,313
+3133,   Repurchased ordinary shares in nominal value      ,,Owner's Equity,,,Yes,,313
+3134,   Repurchased preference shares -  equal to the diff,,Owner's Equity,,,Yes,,313
+3135,   Repurchased ordinary shares in nominal value      ,,Owner's Equity,,,Yes,,313
+3136,   Repurchased ordinary shares -  equal to the differ,,Owner's Equity,,,Yes,,313
+3137,   Repurchased ordinary shares in nominal value      ,,Owner's Equity,,,Yes,,313
+3138,   Repurchased ordinary shares  -  equal to the diffe,,Owner's Equity,,,Yes,,313
+314, Income from emission                              ,,Owner's Equity,,,Yes,,31
+32,DIFFERANCE FROM REVALUATION AND REMEASURMENT ,,Owner's Equity,,,Yes,,3
+321, Increase from reval. in value of fixed assets     ,,Owner's Equity,,,Yes,,32
+3211,   Increase from reval.in value of fixed assets      ,,Owner's Equity,,,Yes,,321
+3212,   Increase from reval.in value of intangible assets ,,Owner's Equity,,,Yes,,321
+322," Pap.prof.,los.from rev.in act.val.of f.as.av.for s",,Owner's Equity,,,Yes,,32
+3221,   Paper prof.from rev.in act.val.of f.as.av.for sale,,Owner's Equity,,,Yes,,322
+3222,   Paper loss.from rev.in act.val.of fin.as.av.for sa,,Owner's Equity,,,Yes,,322
+323," Pap.prof.,los.from rev.in act.val of hedging tools",,Owner's Equity,,,Yes,,32
+3231,   Paper prof.from rev.in act.val.of hedging tools   ,,Owner's Equity,,,Yes,,323
+3232,   Paper losses from rev.in act.val.of hedging tools ,,Owner's Equity,,,Yes,,323
+324, Exchange differences in connection with foreign de,,Owner's Equity,,,Yes,,32
+3241,   Exchange differences- recalculation from financial,,Owner's Equity,,,Yes,,324
+3242,   Exchange differences from part of the net monetary,,Owner's Equity,,,Yes,,324
+3243,   :Exchange differences from hedging of the net mon ,,Owner's Equity,,,Yes,,324
+3,Financial results                                 ,,Owner's Equity,,,Yes,,
+331, Profit or loss                                    ,,Owner's Equity,,,Yes,,33
+3311,   Profit or loss from operational activity          ,,Owner's Equity,,,Yes,,331
+3312,   Profit or loss from non-operational activity      ,,Owner's Equity,,,Yes,,331
+34,RETAINED EARNINGS(UNCOVEREDLOSS)                  ,,Owner's Equity,,,Yes,,3
+341, Adjustments on fin.results of previous years      ,,Owner's Equity,,,Yes,,34
+3411,   Adjust.arised in the result of correc.of ess.error,,Owner's Equity,,,Yes,,341
+3412,   Adjust.arised in the res.of account.policity chang,,Owner's Equity,,,Yes,,341
+342, Retained earnings of previous years               ,,Owner's Equity,,,Yes,,34
+343, Net profut (loss)of accounting year               ,,Owner's Equity,,,Yes,,34
+344, Interim dividends                                 ,,Owner's Equity,,,Yes,,34
+5,OTHER ITEMS OF OWNED CAPITAL                      ,,Owner's Equity,,,Yes,,
+351, Reserve capital                                   ,,Owner's Equity,,,Yes,,35
+352, Derivative tools classified as owned capital tools,,Owner's Equity,,,Yes,,35
+4,Sales,,Revenue,,,Yes,,
+41,LONG-TERM FINANCIAL LIABILITIES                   ,,Revenue,,,Yes,,4
+411, LONG-TERM FINANCIAL LIABILITIES                  ,,Revenue,,,Yes,,41
+4111,   LONG-TERM FINANCIAL LIABILITIES                ,,Revenue,,,Yes,,411
+412, Stand over total amounts on long-term lending     ,,Revenue,,,Yes,,41
+4121,   Stand over total amoun.on given long-term bills   ,,Revenue,,,Yes,,412
+4122,   Stand over total am-s on disposed long-term bond ,,Revenue,,,Yes,,412
+4123,   Stand over total am-s on disposed long-term bond ,,Revenue,,,Yes,,412
+4124,   Stand over total am-s on disposed long-term bond ,,Revenue,,,Yes,,412
+4125,   Stand-over total amounts on other long-term lendin,,Revenue,,,Yes,,412
+413, Stand over amounts on finance lease               ,,Revenue,,,Yes,,41
+414, Not car.out int.exp.on l-t liab.calc.in depr.val. ,,Revenue,,,Yes,,41
+4141,   Not car.out int.exp.on long-term credit           ,,Revenue,,,Yes,,414
+4142,   Not car.out int. expenses on long-term loans      ,,Revenue,,,Yes,,414
+4143,   Not car.out int.expenses on finance lease         ,,Revenue,,,Yes,,414
+415, Non-current fin.liabilities provided for hedging  ,,Revenue,,,Yes,,41
+416,                                                   ,,Revenue,,,Yes,,41
+42,OTHER NON-CURRENT LIBILITIES                      ,,Revenue,,,Yes,,4
+421,Grants refered to assets                          ,,Revenue,,,Yes,,42
+422,Deffered tax libilities                           ,,Revenue,,,Yes,,42
+425,Non-current reserves                              ,,Revenue,,,Yes,,42
+4251, Non-current reserves on guarantee sales           ,,Revenue,,,Yes,,425
+4252, Non-current reserves on bad contracts             ,,Revenue,,,Yes,,425
+4253, Non-current reserves on provided bills and guarant,,Revenue,,,Yes,,425
+4254, Non-current reserves                              ,,Revenue,,,Yes,,425
+426,Actual value of libilities on fixed payments      ,,Revenue,,,Yes,,42
+427,Unrecognized yet actuarial profit(loss)           ,,Revenue,,,Yes,,42
+428,Decrease in value of unaknowlege yet past service ,,Revenue,,,Yes,,42
+429,Other non-cur. liabilities                        ,,Revenue,,,Yes,,42
+5,Cost of Goods Sold,,Expense,,,Yes,,
+51,"RECEIVED SHORT-TERM CREDITS,LOANS,HEDG.TOO",,Expense,,,Yes,,5
+511, Stand over totals on short-term credits           ,,Expense,,,Yes,,51
+512," RECEIVED SHORT-TERM CREDITS,LOANS,HEDG.TOO",,Expense,,,Yes,,51
+5121," RECEIVED SHORT-TERM CREDITS,LOANS,HEDG.TOO",,Expense,,,Yes,,512
+513, Stand over totals on short-tem loans              ,,Expense,,,Yes,,51
+514, Sh-term part of stand over tot.on long-term loans ,,Expense,,,Yes,,51
+5141, Sh-term part of stand over tot.on given l-term bil,,Expense,,,Yes,,514
+5142, Sh-term part of stand over tot. on placed l-t ob-s,,Expense,,,Yes,,514
+5143, Sh-term part of totals on other long-term loans   ,,Expense,,,Yes,,514
+515, Short-term part of stand over totals on fin.lease ,,Expense,,,Yes,,51
+516, Not car.out int.exp.on fin.liab.calc.in depr.value,,Expense,,,Yes,,51
+5161, Not car.out int.expen.on short-term credit        ,,Expense,,,Yes,,516
+5162, Not car.int.exp.on sh-t part of l-t credit        ,,Expense,,,Yes,,516
+5163, Not car.out int.expenses on short-term loans      ,,Expense,,,Yes,,516
+5164, Not car.our int.exp.on sh-t part of l-t loans     ,,Expense,,,Yes,,516
+5165, Not car.out int.exp.on short-term part of fin.leas,,Expense,,,Yes,,516
+517, Fin.liabilities keeped for purposes of sale       ,,Expense,,,Yes,,51
+5171, Fin.liabilities keeped for purposes of sale       ,,Expense,,,Yes,,517
+5172,                                                   ,,Expense,,,Yes,,517
+518, Cur.fin. liabilities provided for hedging         ,,Expense,,,Yes,,51
+519,                                                   ,,Expense,,,Yes,,51
+52, OPERATION AND OTHER CURRENT PAYABLES          ,,Expense,,,Yes,,5
+521, Payables on purchaising                           ,,Expense,,,Yes,,52
+5211, Payables on received raw materials and materials  ,,Expense,,,Yes,,521
+5212, Payables on purchaising of goods                  ,,Expense,,,Yes,,521
+5213," Payables on received services, accepted workings  ",,Expense,,,Yes,,521
+5214, Payables on received financal assets              ,,Expense,,,Yes,,521
+5215, Payables on received fixed assets                 ,,Expense,,,Yes,,521
+5216, Payables on other purchaising                     ,,Expense,,,Yes,,521
+523, Received prepayments                              ,,Expense,,,Yes,,52
+5231," Receiv.prepay.on selling prod.,goods,works,serv.  ",,Expense,,,Yes,,523
+5232, Received prepayments                              ,,Expense,,,Yes,,523
+523202,   Received prepayments                              ,,Expense,,,Yes,,523
+523203,   Received prepayments                              ,,Expense,,,Yes,,523
+523210,   Received prepayments                              ,,Expense,,,Yes,,523
+523211,   Received prepayments                              ,,Expense,,,Yes,,523
+523214,   Received prepayments                              ,,Expense,,,Yes,,523
+523216,   Received prepayments                              ,,Expense,,,Yes,,523
+523218,   Received prepayments                              ,,Expense,,,Yes,,523
+523219,   Received prepayments                              ,,Expense,,,Yes,,523
+5233, Received prepayments on operating lease           ,,Expense,,,Yes,,523
+5235, Prepayments received for other proposes           ,,Expense,,,Yes,,523
+5236, Received prepayments                              ,,Expense,,,Yes,,523
+524,                                                   ,,Expense,,,Yes,,523
+5241, Payables on Profit tax                            ,,Expense,,,Yes,,524
+52411,  Payables on Profit tax                            ,,Expense,,,Yes,,524
+52412,  Payables on Profit tax                            ,,Expense,,,Yes,,524
+5242, Payables on Income tax                            ,,Expense,,,Yes,,524
+52421,  Payables on Income tax for payroll                ,,Expense,,,Yes,,524
+52422,  Payables on Income tax 10%                        ,,Expense,,,Yes,,524
+52423,  Payables on Income tax 11%                        ,,Expense,,,Yes,,524
+52429,  Payables on other Income tax                      ,,Expense,,,Yes,,524
+5243, Payables on VAT                                   ,,Expense,,,Yes,,524
+52431,  Payables on VAT                                   ,,Expense,,,Yes,,524
+524311,   Payables on VAT                                   ,,Expense,,,Yes,,524
+524312,   Payables on VAT                                   ,,Expense,,,Yes,,524
+52432,  Payables on VAT                                   ,,Expense,,,Yes,,524
+524321,   Payables on VAT                                   ,,Expense,,,Yes,,524
+5244, Payables on Excise tax                            ,,Expense,,,Yes,,524
+5245, Payables on Property tax                          ,,Expense,,,Yes,,524
+5246, Payables on Land tax                              ,,Expense,,,Yes,,524
+5247, Payables on Customs duties                        ,,Expense,,,Yes,,524
+5248, Payments on fines and penalties accrual for taxes ,,Expense,,,Yes,,524
+52481,  Payments on fines for taxes                       ,,Expense,,,Yes,,524
+52482,  Payments on penalties accrual for taxes           ,,Expense,,,Yes,,524
+5249, Payables on other item                            ,,Expense,,,Yes,,524
+52491,  Payments on ecotaxes                              ,,Expense,,,Yes,,524
+52492,  Payables on nature management                     ,,Expense,,,Yes,,524
+52493,  Payables on other item                            ,,Expense,,,Yes,,524
+52494,  Payables on other item                            ,,Expense,,,Yes,,524
+52495,  Payables on other item                            ,,Expense,,,Yes,,524
+52496,  Payables on other item                            ,,Expense,,,Yes,,524
+52499,  Payables on other item                            ,,Expense,,,Yes,,524
+525, Short-term payables on compulsory social insurance,,Expense,,,Yes,,52
+5251, Sh-term pay. on comp.soc.ins.accr-l for paid wages,,Expense,,,Yes,,525
+5252, Sh-term pay.on com.soc.ins.for calc.but not-paid w,,Expense,,,Yes,,525
+5253, Sh-term pay. on comp.soc.ins. for paid wages 3%   ,,Expense,,,Yes,,525
+527, Pay-s to pers.on labor paym-s and other sh-t  paym,,Expense,,,Yes,,52
+5271, Sh-term paybales on labor payments                ,,Expense,,,Yes,,527
+5272, Sh-term payables on absences paid for             ,,Expense,,,Yes,,527
+5273, Sh-term payables on awards                        ,,Expense,,,Yes,,527
+5274, Sh-term payables on non-disbursed payments        ,,Expense,,,Yes,,527
+528, Payables to personnel on other operations         ,,Expense,,,Yes,,52
+5281, Payables to personnel on accountable amounts      ,,Expense,,,Yes,,528
+5282, Payables to personnel on other operations         ,,Expense,,,Yes,,528
+529, Short-term liabilities to founders(participants)  ,,Expense,,,Yes,,52
+5291, Short-term liabilities                            ,,Expense,,,Yes,,529
+53, OPERATION AND OTHER CURRENT PAYABLES          ,,Expense,,,Yes,,5
+531, Other current liabilities                         ,,Expense,,,Yes,,53
+5311, Payables on operating lease                       ,,Expense,,,Yes,,531
+5312, Payables on punishments and penalties             ,,Expense,,,Yes,,531
+5313, Payments on insurance contributions               ,,Expense,,,Yes,,531
+54,OTHER CURRENT LIABILITIES                         ,,Expense,,,Yes,,5
+541, Grants refered to incomes                         ,,Expense,,,Yes,,54
+542, Current liabilities on deffered taxes             ,,Expense,,,Yes,,54
+5421, Current liabilities on deffered taxes             ,,Expense,,,Yes,,542
+5422, Current liabilities on deffered taxes             ,,Expense,,,Yes,,542
+543, Current reserves                                  ,,Expense,,,Yes,,54
+5431, Current reserves on guarantee sales               ,,Expense,,,Yes,,543
+5432, Current reserves on bad contracts                 ,,Expense,,,Yes,,543
+5433, Current reserves on provided bills and guarantees ,,Expense,,,Yes,,543
+5434, Current part of non-current reserves              ,,Expense,,,Yes,,543
+5435, Current reserves                                  ,,Expense,,,Yes,,543
+544, Payments on ecotaxes                              ,,Expense,,,Yes,,54

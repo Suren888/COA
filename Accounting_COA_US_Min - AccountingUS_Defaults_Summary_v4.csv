@@ -262,79 +262,80 @@
 2292,  Receivables from pers.on other operations,,Asset,,Yes,,T_DUE_ACCT,229
 2293,  Receivables on claims                            ,,Asset,,Yes,,T_DUE_ACCT,229
 23,CURRENT FINANCIAL INVESTMENTS,,Asset,,,Yes,,2
+231,The current financial assets measured through prof,,Asset,,,Yes,,23
 24,Long Term Liabilities,,Asset,,,Yes,,2
-3,Owner's Equity/Net Worth,,Owner's Equity,,,Yes,,
-31,Capital,,Owner's Equity,,,Yes,,3
-32,Earnings,,Owner's Equity,,,Yes,,3
-4,Sales,,Revenue,,,Yes,,
-41000,Trade Revenue,Default Product or Service revenue,Revenue,,Yes,,P_REVENUE_ACCT,4
-47000,Unearned revenue,"We have invoiced, but not delivered yet",Revenue,,Yes,,UNEARNEDREVENUE_ACCT,4
-49,Sales Discounts,,Revenue,,,Yes,,4
-49100,Trade Discounts,Granted Trade discounts (corrects Product Revenue),Revenue,,Yes,,P_TRADEDISCOUNTGRANT_ACCT,49
-49200,Payment discount expense,Granted early payment discount to customers,Revenue,,Yes,,PAYDISCOUNT_EXP_ACCT,49
-5,Cost of Goods Sold,,Expense,,,Yes,,
-51100,Product CoGs,Cost of Goods Sold,Expense,,Yes,,P_COGS_ACCT,5
-51200,Product Expense,Default Service costs (I.e. not on inventory),Expense,,Yes,,P_EXPENSE_ACCT,5
-51210,Product Cost Adjustment,Product Cost Adjustments,Expense,,Yes,,P_COSTADJUSTMENT_ACCT,5
-51280,Landed Cost Clearing,Default Landed Cost Clearing,Expense,,Yes,,P_LANDEDCOSTCLEARING_ACCT,5
-51290,Product Inventory Clearing,Default Product costs (I.e. on inventory),Expense,,Yes,,P_INVENTORYCLEARING_ACCT,5
-55,Returns,,Expense,,,Yes,,5
-56,Inventory CoGs,,Expense,,,Yes,,5
-56100,Inventory Shrinkage,Physical Inventory Gain/Loss,Expense,,Yes,,W_DIFFERENCES_ACCT,56
-58,CoGS Variances,,Expense,,,Yes,,5
-58100,Invoice price variance,Difference between product cost and invoice price (IPV),Expense,,Yes,,P_INVOICEPRICEVARIANCE_ACCT,58
-58200,Purchase price variance,Difference between purchase price and standard costs (PPV),Expense,,Yes,,P_PURCHASEPRICEVARIANCE_ACCT,58
-58300,Purchase price variance Offset,Offset Account for Purchase price variance (PPV),Expense,,Yes,,PPVOFFSET_ACCT,58
-58500,Method Change Variance,Account for Method Change Variance,Expense,,Yes,,P_RATEVARIANCE_ACCT,58
-58800,Average Cost Variance,Account for Average Cost Variance,Expense,,Yes,,P_AVERAGECOSTVARIANCE_ACCT,58
-58900,Landed Cost Clearing,Account for Landed Cost Clearing,Expense,,Yes,,P_LANDEDCOSTCLEARING_ACCT,58
-59,CoGs Discounts,,Expense,,,Yes,,5
-59100,Trade discounts received,Received Trade Discounts (corrects Product expense),Expense,,Yes,,P_TRADEDISCOUNTREC_ACCT,59
-59200,Payment discount revenue,Granted early payment discount from vendors,Expense,,Yes,,PAYDISCOUNT_REV_ACCT,59
-6,Expenses,,Expense,,,Yes,,
-60,Payroll Expenses,,Expense,,,Yes,,6
-61,Occupancy Cost,,Expense,,,Yes,,6
-62,Advertising,,Expense,,,Yes,,6
-63,Telephone and Communications,,Expense,,,Yes,,6
-64,Professional Services,,Expense,,,Yes,,6
-65,Stationary & Supplies,,Expense,,,Yes,,6
-66,Data Processing,,Expense,,,Yes,,6
-67,Depreciation Expense,,Expense,,,Yes,,6
-68,Business Travel,,Expense,,,Yes,,6
-69,Insurance,,Expense,,,Yes,,6
-70,Payment Processor Costs,,Expense,,,Yes,,6
-71,Dues & Subscription,,Expense,,,Yes,,6
-72,Office Expense,,Expense,,,Yes,,6
-73,Posting & Shipping,,Expense,,,Yes,,6
-74,Taxes and Licenses,,Expense,,,Yes,,6
-74100,Tax expense,Sales Tax paid to Vendors,Expense,,Yes,,T_EXPENSE_ACCT,74
-75,Education,,Expense,,,Yes,,6
-76,Equipment Rent,,Expense,,,Yes,,6
-77,Repairs & Maintenance,,Expense,,,Yes,,6
-78,Other Operating Expenses,,Expense,,,Yes,,6
-78100,Bad Debts Write-off,Receivables write-off - bad debt,Expense,,Yes,,WRITEOFF_ACCT,78
-78110,Matched Invoice Write-off,Matched Invoice Write-off,Expense,,,,C_MatchInv_WriteOff_Acct,78
-78300,Petty Cash Over/Short,Petty Cash Differences,Expense,,Yes,,CB_DIFFERENCES_ACCT,78
-79,Default/Suspense Accounts,Temporary accounts - balance should be zero,Expense,,,Yes,,6
-79100,Default account,Default Account (if no other account is defined) V1.1,Expense,,Yes,,DEFAULT_ACCT,79
-79200,Suspense balancing,Difference to make journal balance in source currency - needs to be solved,Expense,,Yes,,SUSPENSEBALANCING_ACCT,79
-79400,Cash book expense,Default other expense for petty cash transactions,Expense,,Yes,,CB_EXPENSE_ACCT,79
-79500,Cash book receipts,Default other revenue for petty cash transactions,Revenue,,Yes,,CB_RECEIPT_ACCT,79
-79600,Charge expense,Default other expense,Expense,,Yes,,CH_EXPENSE_ACCT,79
-80,Other Income,,Revenue,,,Yes,,
-80100,Interest Income,Bank interest revenue,Revenue,,Yes,,B_INTERESTREV_ACCT,80
-805,Currency Gain,,Revenue,,,Yes,,80
-80530,Unrealized gain,Difference between foreign currency receivables/payables and current rate,Revenue,,Yes,,UNREALIZEDGAIN_ACCT,805
-80540,Realized gain,Difference between invoice and payment currency,Revenue,,Yes,,REALIZEDGAIN_ACCT,805
-82,Other Expense,,Expense,,,Yes,,
-82100,Interest Expense,Bank interest expense,Expense,,Yes,,B_INTERESTEXP_ACCT,82
-825,Currency Loss,,Expense,,,Yes,,82
-82530,Unrealized loss,Difference between foreign currency receivables/payables and current rate,Expense,,Yes,,UNREALIZEDLOSS_ACCT,825
-82540,Realized loss,Difference between invoice and payment currency,Expense,,Yes,,REALIZEDLOSS_ACCT,825
-82550,Currency balancing,Rounding difference to make journal balance in accounting currency,Expense,,Yes,,CURRENCYBALANCING_ACCT,825
-83,Expense (Absorbed),,Expense,,,Yes,,
-89,Income Tax & Summary,,Expense,,,Yes,,
-91,Costing,,Memo,,,Yes,,
-95,Commitment Accounting,,Memo,,,Yes,,
-952,PO Commitment,,Memo,,,,COMMITMENTOFFSET_ACCT,95
-953,SO Commitment,,Memo,,,,COMMITMENTOFFSETSALES_ACCT,95
+25,Owner's Equity/Net Worth,,Owner's Equity,,,Yes,,
+26,Capital,,Owner's Equity,,,Yes,,3
+27,Earnings,,Owner's Equity,,,Yes,,3
+28,Sales,,Revenue,,,Yes,,
+29,Trade Revenue,Default Product or Service revenue,Revenue,,Yes,,P_REVENUE_ACCT,4
+30,Unearned revenue,"We have invoiced, but not delivered yet",Revenue,,Yes,,UNEARNEDREVENUE_ACCT,4
+31,Sales Discounts,,Revenue,,,Yes,,4
+32,Trade Discounts,Granted Trade discounts (corrects Product Revenue),Revenue,,Yes,,P_TRADEDISCOUNTGRANT_ACCT,49
+33,Payment discount expense,Granted early payment discount to customers,Revenue,,Yes,,PAYDISCOUNT_EXP_ACCT,49
+34,Cost of Goods Sold,,Expense,,,Yes,,
+35,Product CoGs,Cost of Goods Sold,Expense,,Yes,,P_COGS_ACCT,5
+36,Product Expense,Default Service costs (I.e. not on inventory),Expense,,Yes,,P_EXPENSE_ACCT,5
+37,Product Cost Adjustment,Product Cost Adjustments,Expense,,Yes,,P_COSTADJUSTMENT_ACCT,5
+38,Landed Cost Clearing,Default Landed Cost Clearing,Expense,,Yes,,P_LANDEDCOSTCLEARING_ACCT,5
+39,Product Inventory Clearing,Default Product costs (I.e. on inventory),Expense,,Yes,,P_INVENTORYCLEARING_ACCT,5
+40,Returns,,Expense,,,Yes,,5
+41,Inventory CoGs,,Expense,,,Yes,,5
+42,Inventory Shrinkage,Physical Inventory Gain/Loss,Expense,,Yes,,W_DIFFERENCES_ACCT,56
+43,CoGS Variances,,Expense,,,Yes,,5
+44,Invoice price variance,Difference between product cost and invoice price (IPV),Expense,,Yes,,P_INVOICEPRICEVARIANCE_ACCT,58
+45,Purchase price variance,Difference between purchase price and standard costs (PPV),Expense,,Yes,,P_PURCHASEPRICEVARIANCE_ACCT,58
+46,Purchase price variance Offset,Offset Account for Purchase price variance (PPV),Expense,,Yes,,PPVOFFSET_ACCT,58
+47,Method Change Variance,Account for Method Change Variance,Expense,,Yes,,P_RATEVARIANCE_ACCT,58
+48,Average Cost Variance,Account for Average Cost Variance,Expense,,Yes,,P_AVERAGECOSTVARIANCE_ACCT,58
+49,Landed Cost Clearing,Account for Landed Cost Clearing,Expense,,Yes,,P_LANDEDCOSTCLEARING_ACCT,58
+50,CoGs Discounts,,Expense,,,Yes,,5
+51,Trade discounts received,Received Trade Discounts (corrects Product expense),Expense,,Yes,,P_TRADEDISCOUNTREC_ACCT,59
+52,Payment discount revenue,Granted early payment discount from vendors,Expense,,Yes,,PAYDISCOUNT_REV_ACCT,59
+53,Expenses,,Expense,,,Yes,,
+54,Payroll Expenses,,Expense,,,Yes,,6
+55,Occupancy Cost,,Expense,,,Yes,,6
+56,Advertising,,Expense,,,Yes,,6
+57,Telephone and Communications,,Expense,,,Yes,,6
+58,Professional Services,,Expense,,,Yes,,6
+59,Stationary & Supplies,,Expense,,,Yes,,6
+60,Data Processing,,Expense,,,Yes,,6
+61,Depreciation Expense,,Expense,,,Yes,,6
+62,Business Travel,,Expense,,,Yes,,6
+63,Insurance,,Expense,,,Yes,,6
+64,Payment Processor Costs,,Expense,,,Yes,,6
+65,Dues & Subscription,,Expense,,,Yes,,6
+66,Office Expense,,Expense,,,Yes,,6
+67,Posting & Shipping,,Expense,,,Yes,,6
+68,Taxes and Licenses,,Expense,,,Yes,,6
+69,Tax expense,Sales Tax paid to Vendors,Expense,,Yes,,T_EXPENSE_ACCT,74
+70,Education,,Expense,,,Yes,,6
+71,Equipment Rent,,Expense,,,Yes,,6
+72,Repairs & Maintenance,,Expense,,,Yes,,6
+73,Other Operating Expenses,,Expense,,,Yes,,6
+74,Bad Debts Write-off,Receivables write-off - bad debt,Expense,,Yes,,WRITEOFF_ACCT,78
+75,Matched Invoice Write-off,Matched Invoice Write-off,Expense,,,,C_MatchInv_WriteOff_Acct,78
+76,Petty Cash Over/Short,Petty Cash Differences,Expense,,Yes,,CB_DIFFERENCES_ACCT,78
+77,Default/Suspense Accounts,Temporary accounts - balance should be zero,Expense,,,Yes,,6
+78,Default account,Default Account (if no other account is defined) V1.1,Expense,,Yes,,DEFAULT_ACCT,79
+79,Suspense balancing,Difference to make journal balance in source currency - needs to be solved,Expense,,Yes,,SUSPENSEBALANCING_ACCT,79
+80,Cash book expense,Default other expense for petty cash transactions,Expense,,Yes,,CB_EXPENSE_ACCT,79
+81,Cash book receipts,Default other revenue for petty cash transactions,Revenue,,Yes,,CB_RECEIPT_ACCT,79
+82,Charge expense,Default other expense,Expense,,Yes,,CH_EXPENSE_ACCT,79
+83,Other Income,,Revenue,,,Yes,,
+84,Interest Income,Bank interest revenue,Revenue,,Yes,,B_INTERESTREV_ACCT,80
+85,Currency Gain,,Revenue,,,Yes,,80
+86,Unrealized gain,Difference between foreign currency receivables/payables and current rate,Revenue,,Yes,,UNREALIZEDGAIN_ACCT,805
+87,Realized gain,Difference between invoice and payment currency,Revenue,,Yes,,REALIZEDGAIN_ACCT,805
+88,Other Expense,,Expense,,,Yes,,
+89,Interest Expense,Bank interest expense,Expense,,Yes,,B_INTERESTEXP_ACCT,82
+90,Currency Loss,,Expense,,,Yes,,82
+91,Unrealized loss,Difference between foreign currency receivables/payables and current rate,Expense,,Yes,,UNREALIZEDLOSS_ACCT,825
+92,Realized loss,Difference between invoice and payment currency,Expense,,Yes,,REALIZEDLOSS_ACCT,825
+93,Currency balancing,Rounding difference to make journal balance in accounting currency,Expense,,Yes,,CURRENCYBALANCING_ACCT,825
+94,Expense (Absorbed),,Expense,,,Yes,,
+95,Income Tax & Summary,,Expense,,,Yes,,
+96,Costing,,Memo,,,Yes,,
+97,Commitment Accounting,,Memo,,,Yes,,
+98,PO Commitment,,Memo,,,,COMMITMENTOFFSET_ACCT,95
+99,SO Commitment,,Memo,,,,COMMITMENTOFFSETSALES_ACCT,95
